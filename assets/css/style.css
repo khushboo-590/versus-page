@@ -183,3 +183,20 @@
     display: flex;
     gap:16px;
 }
+.bg-img-2 {
+    background-image: url(/assets/images/bg-img-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    top: 0;
+    right: 0;
+}
+.grand{
+    font-size: 36px;
+        color: var(--Accent-Colors-accent-color-base, #D4FF27);
+
+}
+.max-w-888{
+    max-width: 888px;
+}
