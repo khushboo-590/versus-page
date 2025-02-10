@@ -1,0 +1,8 @@
+.top-nav{
+    border-width: 0px, 1px, 1px, 0px;
+    
+        border-style: solid;
+    
+        border-color: var(--Colors-Neutrals-Neutral-600, #1F272E);
+        background: var(--Colors-Neutrals-Neutral-700, #151A1F);
+}

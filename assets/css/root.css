@@ -1,0 +1,127 @@
+:root {
+
+
+    /* -----color--- */
+    --white-color: #FFFFFF;
+    --light-green: #D4FF27;
+    --grey-color: #4D545E;
+    --black-color: #000000;
+    --light-black: #1F2309;
+
+
+    /* -----font-size--- */
+
+    --text-xl: 96px;
+    --text-lg: 64px;
+    --text-md: 48px;
+    --text-sm: 24px;
+    --text-default: 16px;
+    --text-base:14px;
+
+
+
+    /* ----line-height---- */
+    --lh-16: 16px;
+    --lh-24: 24px;
+    --lh-36: 36px;
+   
+
+
+
+    /* ----font-wight--- */
+    --fw-700: 700;
+    --fw-500: 500;
+    --fw-600: 600;
+
+}
+/* ====font-weight=== */
+
+.fw-md {
+    font-weight: var(--fw-500);
+}
+
+.fw-lg {
+    font-weight: var(--fw-600);
+}
+
+.fw-xl {
+    font-weight: var(--fw-700);
+}
+
+
+.fs-default {
+    font-size: var(--text-default);
+}
+
+.fs-sm {
+    font-size: var(--text-sm);
+}
+
+.fs-lg {
+    font-size: var(--text-lg);
+}
+
+.fs-md {
+    font-size: var(--text-md);
+}
+
+.fs-xl {
+    font-size: var(--text-xl);
+}
+
+
+/* ====color==== */
+.fc-light-green {
+    color: var(--light-green);
+}
+
+.bg-grey-color {
+    background: var(--grey-color);
+}
+
+.fc-green {
+    color: var(--light-green)
+}
+
+.bg-grey-color {
+    color: var(--grey-color);
+}
+
+.fc-white {
+    color: var(--white-color);
+}
+
+.fc-black {
+    color: var(--black-color);
+}
+
+.fc-light-black {
+    color: var(--light-black)
+}
+
+/* ===line-hieiht=== */
+
+.lh-26 {
+    line-height: var(--lh-26) !important;
+}
+
+.lh-24 {
+    line-height: var(--lh-24) !important;
+}
+
+.lh-36 {
+    line-height: var(--lh-36) !important;
+}
+
+
+
+
+
+.font-family {
+    font-family: Normalidad;
+
+}
+
+.oppicity {
+    opacity: 60%;
+}
