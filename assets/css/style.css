@@ -200,3 +200,33 @@
 .max-w-888{
     max-width: 888px;
 }
+.bg-img-3 {
+    background-image: url(/assets/images/bg-img-3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    top: 0;
+    right: 0;
+}
+.meet-btn{
+    background: var(--Colors-Neutrals-Neutral-700, #151A1F);
+    padding: 8px 12px;
+    color: var(--Colors-Neutrals-Neutral-50, #FFFFFF);
+    border-radius: 72px;
+    border: none;
+        letter-spacing: 0%;
+        text-align: center;
+}
+.mt-60{
+    margin-top: 60px;
+}
+.ml-100{
+    margin-left: 100px;
+}
+.para{
+    color: var(--Colors-Neutrals-Neutral-500, #4D545E);
+}
+.mt-30{
+    margin-top: 30px;
+}
