@@ -1,8 +1,140 @@
-.top-nav{
+.top-nav {
     border-width: 0px, 1px, 1px, 0px;
+
+    border-style: solid;
+
+    border-color: var(--Colors-Neutrals-Neutral-600, #1F272E);
+    background: var(--Colors-Neutrals-Neutral-700, #151A1F);
+}
+
+.navlinks {
+    color: var(--Colors-Neutrals-Neutral-400, #545E6C);
+}
+
+.btn {
+    padding: 2px 8px;
+    border-radius: 40px;
+    background: var(--Colors-Neutrals-Neutral-600, #1F272E);
+    color: var(--Colors-Neutrals-Neutral-400, #545E6C);
+    border: none;
+}
+
+.btn-1 {
+    padding: 12px 16px;
+    border-radius: 10px;
+    color: var(--Colors-Neutrals-Neutral-50, #FFFFFF);
+    background: var(--Colors-Neutrals-Neutral-600, #1F272E);
+    border: none;
+
+
+}
+
+.fc-white-color {
+    color: var(--Colors-Neutrals-Neutral-50, #FFFFFF);
+}
+
+.light-green {
+    color: var(--Accent-Colors-accent-color-base, #D4FF27);
+}
+
+.btn-2 {
+    background: var(--Accent-Colors-accent-color-base, #D4FF27);
+    color: #000000;
+}
+
+.ml-180 {
+    margin-left: 180;
+}
+
+.gap-24 {
+    gap: 24px;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.gap-16 {
+    gap: 16px
+}
+
+.text-decoration {
+    text-decoration: none;
+}
+
+.bg-img {
+    background-image: url(/assets/images/background-img/Hero\ Section\ 1/2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    top: 0;
+    right: 0;
+}
+
+.position-relative {
+    position: relative;
+}
+.position-absloute{
+    position: absolute;
+}
     
-        border-style: solid;
-    
-        border-color: var(--Colors-Neutrals-Neutral-600, #1F272E);
-        background: var(--Colors-Neutrals-Neutral-700, #151A1F);
+
+
+.text-center {
+    text-align: center;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.main-heading {
+    font-size: 96px;
+    letter-spacing: -4%;
+}
+
+.discription {
+    letter-spacing: 20%;
+}
+
+.btn-3 {
+    color: var(--Colors-Neutrals-Neutral-900, #000000);
+    background: var(--Accent-Colors-accent-color-base, #D4FF27);
+    padding: 16px 24px;
+    border-radius: 10px;
+    letter-spacing: -1%;
+    border: none;
+}
+
+.line {
+    width: 48px;
+    height: 4px;
+    border-radius: 24px;
+}
+
+.line-1 {
+    background: var(--Accent-Colors-accent-color-base, #D4FF27);
+}
+
+.line-2 {
+    background: var(--Colors-Neutrals-Neutral-700, #151A1F);
+}
+.pt-100{
+    padding-top: 100px;
+}
+.pt-40{
+    padding-top: 40px;
+}
+.pb-20{
+    padding-bottom: 20px;
+}
+.pb-90{
+    padding-bottom: 90px;
+}
+.pt-20{
+    padding-top: 20px;
+}
+.border{
+    border: none !important;
 }

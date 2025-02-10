@@ -3,20 +3,21 @@
 
     /* -----color--- */
     --white-color: #FFFFFF;
-    --light-green: #D4FF27;
-    --grey-color: #4D545E;
+    --light-green: (--Accent-Colors-accent-color-base, #D4FF27);
+    --grey-color: (--Colors-Neutrals-Neutral-600, #1F272E);
+    --light-grey: #1F272E;
     --black-color: #000000;
     --light-black: #1F2309;
 
 
     /* -----font-size--- */
-
-    --text-xl: 96px;
-    --text-lg: 64px;
-    --text-md: 48px;
-    --text-sm: 24px;
-    --text-default: 16px;
-    --text-base:14px;
+    --text-xxl: 96px;
+    --text-xl: 64px;
+    --text-lg: 48px;
+    --text-md: 24px;
+    --text-sm: 16px;
+    --text-default: 14px;
+    --text-base: 12px;
 
 
 
@@ -24,17 +25,24 @@
     --lh-16: 16px;
     --lh-24: 24px;
     --lh-36: 36px;
-   
+    --lh-86: 86.4px;
+
 
 
 
     /* ----font-wight--- */
     --fw-700: 700;
+    --fw-400: 400;
     --fw-500: 500;
     --fw-600: 600;
 
 }
+
 /* ====font-weight=== */
+
+.fw-sm {
+    font-weight: var(--fw-400);
+}
 
 .fw-md {
     font-weight: var(--fw-500);
@@ -48,6 +56,9 @@
     font-weight: var(--fw-700);
 }
 
+.fs-base {
+    font-size: var(--text-base);
+}
 
 .fs-default {
     font-size: var(--text-default);
@@ -69,18 +80,22 @@
     font-size: var(--text-xl);
 }
 
+.fs-xxl {
+    font-size: var(--text-xxl);
+}
+
 
 /* ====color==== */
 .fc-light-green {
     color: var(--light-green);
 }
 
-.bg-grey-color {
-    background: var(--grey-color);
+.bg-light-green {
+    background: var(--light-green);
 }
 
-.fc-green {
-    color: var(--light-green)
+.fc-grey-color {
+    color: var(--grey-color)
 }
 
 .bg-grey-color {
@@ -99,6 +114,10 @@
     color: var(--light-black)
 }
 
+.bg-light-grey {
+    background: var(--light-grey);
+}
+
 /* ===line-hieiht=== */
 
 .lh-26 {
@@ -111,6 +130,10 @@
 
 .lh-36 {
     line-height: var(--lh-36) !important;
+}
+
+.lh-86 {
+    line-height: var(--lh-86) !important;
 }
 
 
