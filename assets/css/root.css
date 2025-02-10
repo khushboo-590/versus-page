@@ -26,6 +26,8 @@
     --lh-24: 24px;
     --lh-36: 36px;
     --lh-86: 86.4px;
+    --lh-20:20px;
+    
 
 
 
@@ -137,6 +139,9 @@
 
 .lh-86 {
     line-height: var(--lh-86) !important;
+}
+.lh-20 {
+    line-height: var(--lh-20) !important;
 }
 
 

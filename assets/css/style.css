@@ -230,3 +230,37 @@
 .mt-30{
     margin-top: 30px;
 }
+.vertical{
+    width: 5px;
+    height: 30px;
+            background-color: var(--Accent-Colors-accent-color-base, #D4FF27);
+}
+
+.box{
+    background: var(--Colors-Neutrals-Neutral-800, #0D1012);
+    backdrop-filter: blur(40px);
+    padding: 32px 24px 24px 24px;
+}
+.fc-light-yellow{
+            color: var(--Accent-Colors-accent-color-base, #D4FF27);
+}
+.max-w-660{
+    max-width: 660px;
+}
+.max-w-480{
+    max-width: 480px;
+    background: var(--Colors-Neutrals-Neutral-800, #0D1012);
+}
+.max-w-1320{
+    max-width: 1320px;
+    /* padding-left: 12px;
+    padding-right: 12px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+.ml-40{
+    margin-left: 40px;
+}
+.mt-10{
+    margin-top: 10px;
+}
