@@ -75,10 +75,11 @@
 .position-relative {
     position: relative;
 }
-.position-absloute{
+
+.position-absloute {
     position: absolute;
 }
-    
+
 
 
 .text-center {
@@ -120,21 +121,65 @@
 .line-2 {
     background: var(--Colors-Neutrals-Neutral-700, #151A1F);
 }
-.pt-100{
+
+.pt-100 {
     padding-top: 100px;
 }
-.pt-40{
+
+.pt-40 {
     padding-top: 40px;
 }
-.pb-20{
+
+.pb-20 {
     padding-bottom: 20px;
 }
-.pb-90{
+
+.pb-90 {
     padding-bottom: 90px;
 }
-.pt-20{
+
+.pt-20 {
     padding-top: 20px;
 }
-.border{
+
+.border {
     border: none !important;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.pt-40 {
+    transform: translate(-40px);
+}
+
+.card {
+    background: #FFFFFF;
+    border-radius: 24px;
+    padding: 24px;
+    width:318px;
+    margin-bottom: 20px;
+    border: 1px solid var(--Colors-Neutrals-Neutral-700, #151A1F);
+    backdrop-filter: blur(40px);
+    background: var(--Colors-Neutrals-Neutral-800, #0D1012);
+
+}
+.top-18{
+    top: 18px;
+}
+.z-1{
+    z-index: 1;
+}
+.letter-spacing{
+    letter-spacing: 0%;
+}
+.letter-spacing {
+    letter-spacing: 1%;
+    color: var(--Colors-Neutrals-Neutral-50, #FFFFFF);
+    opacity: 40%;
+}
+.my-silder.slick-silder{
+    display: flex;
+    gap:16px;
 }

@@ -117,6 +117,9 @@
 .bg-light-grey {
     background: var(--light-grey);
 }
+.bg-black{
+    background: var(--Colors-Neutrals-Neutral-900, #000000);
+}
 
 /* ===line-hieiht=== */
 
