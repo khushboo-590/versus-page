@@ -15,6 +15,9 @@ $(document).ready(function () {
         slidesToShow: 4,
         autoplay: true,
         autoplaySpeed: 2000,
+        prevArrow: false,
+        nextArrow: false,
+
         responsive: [
 
             {

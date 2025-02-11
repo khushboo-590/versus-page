@@ -480,7 +480,7 @@ input[type="email"] {
 }
 .gradient {
     position: absolute;
-top: 400%; 
+top: 434%; 
 z-index: 1;
 overflow: hidden;
 width: 100%;
@@ -490,7 +490,7 @@ width: 100%;
    
 @media(max-width:1246px){
     .gradient{
-        top:460%;
+        top:495%;
     }
 }
 @media(max-width:992px) {
