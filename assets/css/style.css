@@ -1,3 +1,5 @@
+@import url("https: //globalfonts.pro/font/normalidad");
+
 @import url(/assets/css/root.css);
 
 .top-nav {
@@ -192,26 +194,27 @@
     background: #FFFFFF;
     border-radius: 24px;
     padding: 20px;
-    width: 318px;
-    margin-bottom: 20px;
     border: 1px solid var(--Colors-Neutrals-Neutral-700, #151A1F);
     backdrop-filter: blur(40px);
     background: var(--Colors-Neutrals-Neutral-800, #0D1012);
 
 }
-.game{
-    width: 220px;
+.max-w-290{
+    max-width: 290px;
 }
 
 .top-18 {
     top: 18px;
 }
+
 .slick-next {
-    right: none;
+visibility: hidden;
+content: none;
 }
 
 .slick-prev {
-    display: unset;
+    visibility: hidden;
+    content: none;
 }
 
 
@@ -228,7 +231,8 @@
 
 .my-silder.slick-silder {
     display: flex;
-    gap: 16px;
+    gap: 20px;
+
 }
 
 .bg-img-2 {
@@ -476,7 +480,7 @@ input[type="email"] {
 }
 .gradient {
     position: absolute;
-top: 320%; 
+top: 400%; 
 z-index: 1;
 overflow: hidden;
 width: 100%;
@@ -486,7 +490,7 @@ width: 100%;
    
 @media(max-width:1246px){
     .gradient{
-        top:367%;
+        top:460%;
     }
 }
 @media(max-width:992px) {
@@ -494,7 +498,6 @@ width: 100%;
         font-size: 66px;
         letter-spacing: -4%;
     }
-
     .gradient {
         display: none;
     }

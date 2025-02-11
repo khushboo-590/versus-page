@@ -24,11 +24,12 @@ $(document).ready(function () {
                 },
             },
             {
-                breakpoint: 576,
+                breakpoint: 350,
                 settings: {
                     slidesToShow: 1,
                 },
             },
+
         ],
 
     });
