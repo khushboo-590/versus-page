@@ -1,10 +1,6 @@
-
 @import url(/assets/css/root.css);
 
-@font-face {
-    font-family: ;
-    src: url();
-}
+
 .top-nav {
     border-width: 0px, 1px, 1px, 0px;
 
@@ -139,7 +135,8 @@
     letter-spacing: -1%;
     border: none;
 }
-.max-w-538{
+
+.max-w-538 {
     max-width: 538px;
 }
 
@@ -147,6 +144,10 @@
     width: 48px;
     height: 4px;
     border-radius: 24px;
+}
+
+.max-w-612 {
+    max-width: 612px;
 }
 
 .line-1 {
@@ -206,7 +207,8 @@
     background: var(--Colors-Neutrals-Neutral-800, #0D1012);
 
 }
-.max-w-290{
+
+.max-w-290 {
     max-width: 290px;
 }
 
@@ -215,8 +217,8 @@
 }
 
 .slick-next {
-visibility: hidden;
-content: none;
+    visibility: hidden;
+    content: none;
 }
 
 .slick-prev {
@@ -236,11 +238,7 @@ content: none;
     opacity: 40%;
 }
 
-.my-silder.slick-silder {
-    display: flex;
-    gap: 20px;
 
-}
 
 .bg-img-2 {
     background-image: url(/assets/images/video-img.png);
@@ -424,6 +422,10 @@ input[type="email"] {
     gap: 20px;
 }
 
+.card:hover {
+    border: 1px solid#D4FF27;
+}
+
 
 
 
@@ -481,33 +483,50 @@ input[type="email"] {
 .cartoon {
     bottom: 0;
 }
-.z-1{
-    z-index:-1;
+
+.z-1 {
+    z-index: -1;
 }
+
 .gradient {
     position: absolute;
-top: 445%; 
-z-index: 1;
-overflow: hidden;
-width: 100%;
+    top: 443%;
+    z-index: 1;
+    overflow: hidden;
+    width: 100%;
 
- background: linear-gradient(41.57deg, #D4FF27 1.11%, rgba(160, 255, 39, 0.4) 4.83%, rgba(0, 0, 0, 0) 17.68%);
+    background: linear-gradient(41.57deg, #D4FF27 1.11%, rgba(160, 255, 39, 0.4) 4.83%, rgba(0, 0, 0, 0) 17.68%);
 }
-   
-@media(max-width:1246px){
-    .gradient{
-        top:497%;
+
+
+
+@media(max-width:1246px) {
+    .gradient {
+        top: 490%;
     }
 }
+
 @media(max-width:992px) {
     .main-heading {
         font-size: 66px;
         letter-spacing: -4%;
     }
+
     .gradient {
         display: none;
     }
+
+    .flying {
+        width: 100%;
+    }
+
+    .display {
+        display: unset;
+    }
+
+
 }
+
 @media (max-width:785.98px) {
 
     .menu-list {
@@ -567,6 +586,7 @@ width: 100%;
     .ml-100 {
         margin-left: 0px;
     }
+
 }
 
 
@@ -576,5 +596,6 @@ width: 100%;
         font-size: 50px;
         letter-spacing: -4%;
     }
+
 
 }
