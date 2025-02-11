@@ -1,3 +1,5 @@
+@import url(/assets/css/root.css);
+
 .top-nav {
     border-width: 0px, 1px, 1px, 0px;
 
@@ -9,6 +11,10 @@
 
 .navlinks {
     color: var(--Colors-Neutrals-Neutral-400, #545E6C);
+}
+
+.navlinks:hover {
+    color: #FFFFFF;
 }
 
 .btn {
@@ -29,6 +35,16 @@
 
 }
 
+.btn-1:hover {
+    background: var(--Colors-Neutrals-Neutral-50, #FFFFFF);
+    color: var(--Colors-Neutrals-Neutral-600, #1F272E);
+}
+
+.btn:hover {
+    color: var(--Colors-Neutrals-Neutral-600, #1F272E);
+    background: var(--Colors-Neutrals-Neutral-400, #545E6C);
+}
+
 .fc-white-color {
     color: var(--Colors-Neutrals-Neutral-50, #FFFFFF);
 }
@@ -40,6 +56,16 @@
 .btn-2 {
     background: var(--Accent-Colors-accent-color-base, #D4FF27);
     color: #000000;
+}
+
+.btn-2:hover {
+    background: #000000;
+    color: var(--Accent-Colors-accent-color-base, #D4FF27);
+}
+
+.btn-3:hover {
+    background: #000000;
+    color: var(--Accent-Colors-accent-color-base, #D4FF27);
 }
 
 .ml-180 {
@@ -118,8 +144,16 @@
     background: var(--Accent-Colors-accent-color-base, #D4FF27);
 }
 
+.line-1:hover {
+    background: var(--Colors-Neutrals-Neutral-700, #151A1F);
+}
+
 .line-2 {
     background: var(--Colors-Neutrals-Neutral-700, #151A1F);
+}
+
+.line-2:hover {
+    background: var(--Accent-Colors-accent-color-base, #D4FF27);
 }
 
 .pt-100 {
@@ -157,7 +191,7 @@
 .card {
     background: #FFFFFF;
     border-radius: 24px;
-    padding: 24px;
+    padding: 20px;
     width: 318px;
     margin-bottom: 20px;
     border: 1px solid var(--Colors-Neutrals-Neutral-700, #151A1F);
@@ -165,14 +199,22 @@
     background: var(--Colors-Neutrals-Neutral-800, #0D1012);
 
 }
+.game{
+    width: 220px;
+}
 
 .top-18 {
     top: 18px;
 }
-
-.z-1 {
-    z-index: 1;
+.slick-next {
+    right: none;
 }
+
+.slick-prev {
+    display: unset;
+}
+
+
 
 .letter-spacing {
     letter-spacing: 0%;
@@ -221,7 +263,7 @@
 
 .meet-btn {
     background: var(--Colors-Neutrals-Neutral-700, #151A1F);
-    padding: 8px 12px;
+    padding: 2px 8px;
     color: var(--Colors-Neutrals-Neutral-50, #FFFFFF);
     border-radius: 72px;
     border: none;
@@ -233,8 +275,8 @@
     margin-top: 60px;
 }
 
-.ml-100 {
-    margin-left: 100px;
+.ml-50 {
+    margin-left: 50px;
 }
 
 .para {
@@ -267,7 +309,7 @@
 
 .icon-box {
     background: var(--Colors-Neutrals-Neutral-800, #0D1012);
-    width: ;
+    width: 100%;
 }
 
 .max-w-1320 {
@@ -307,15 +349,37 @@
     height: 40px;
     background: var(--Colors-Neutrals-Neutral-700, #151A1F);
     border-radius: 10px;
+
 }
 
+.arrow-box:hover {
+    background-color: #FFFFFF;
+}
+
+.arrow-box-1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: var(--Accent-Colors-accent-color-base, #D4FF27);
+
+}
+
+.arrow-box-1:hover {
+    background: var(--Colors-Neutrals-Neutral-700, #FFFFFF);
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+
+
 input[type="email"] {
-    width: 350px;
+    max-width: 480px;
     text-align: left;
     background: var(--Colors-Neutrals-Neutral-800, #0D1012);
     border-radius: 12px;
     padding: 12px 16px;
-    /* margin-top: 70px; */
     font-family: Normalidad;
     font-weight: 400;
     font-size: 14px;
@@ -324,22 +388,118 @@ input[type="email"] {
     color: var(--Colors-Neutrals-Neutral-500, #4D545E);
     border: 1px solid var(--Colors-Neutrals-Neutral-700, #151A1F)
 }
-.bg-color-1{
+
+.bg-color-1 {
     background: var(--Colors-Neutrals-Neutral-700, #151A1F);
 }
-.margin{
+
+.margin {
     width: 2px;
-    /* padding-bottom: 20px; */
     border: 1px solid var(--Colors-Neutrals-Neutral-600, #1F272E);
     width: 100%;
 }
-.list-type{
+
+.list-type {
     list-style-type: none;
+}
+
+.gap-2 {
+    gap: 2px;
 }
 
 
 
-@media (max-width:991.98px) {
+.my_file .slick-track {
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+.iframe-box {
+    max-width: 900px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.iframe-box iframe {
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* height: 100%; */
+    max-width: 888px;
+    height: 480px;
+    border: none;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.display {
+    display: flex;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.social-icon:hover {
+    transform: scale(1.4);
+
+}
+
+.nav {
+    position: fixed;
+}
+
+.gap-250 {
+    justify-content: space-between;
+}
+
+.py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cartoon {
+    bottom: 0;
+}
+.z-1{
+    z-index:-1;
+}
+.gradient {
+    position: absolute;
+top: 320%; 
+z-index: 1;
+overflow: hidden;
+width: 100%;
+
+ background: linear-gradient(41.57deg, #D4FF27 1.11%, rgba(160, 255, 39, 0.4) 4.83%, rgba(0, 0, 0, 0) 17.68%);
+}
+   
+@media(max-width:1246px){
+    .gradient{
+        top:367%;
+    }
+}
+@media(max-width:992px) {
+    .main-heading {
+        font-size: 66px;
+        letter-spacing: -4%;
+    }
+
+    .gradient {
+        display: none;
+    }
+}
+@media (max-width:785.98px) {
 
     .menu-list {
         flex-direction: column;
@@ -354,6 +514,7 @@ input[type="email"] {
 
         ul {
             flex-direction: column;
+
         }
     }
 
@@ -369,18 +530,19 @@ input[type="email"] {
         justify-content: space-between;
         cursor: pointer;
         z-index: 1;
+        margin-top: 10px;
 
         span {
             width: 100%;
             height: 5px;
-            background-color: black;
+            background-color: #FFFFFF;
             border-radius: 4px;
             transition: all 200ms linear;
         }
     }
 
     .menu-icon.active span:first-of-type {
-        transform: rotate(38deg);
+        transform: rotate(40deg);
         transform-origin: left;
     }
 
@@ -389,6 +551,25 @@ input[type="email"] {
     }
 
     .menu-icon.active span:last-of-type {
-        transform: rotate(-38deg);
+        transform: rotate(-40deg);
         transform-origin: left;
-    }}
+    }
+
+    .ml-100 {
+        margin-left: 0px;
+    }
+}
+
+
+
+@media(max-width:567px) {
+    .main-heading {
+        font-size: 50px;
+        letter-spacing: -4%;
+    }
+
+    .display {
+        display: unset;
+    }
+
+}

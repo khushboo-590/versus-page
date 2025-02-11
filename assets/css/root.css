@@ -202,3 +202,22 @@
 .oppicity {
     opacity: 60%;
 }
+
+@media(max-width:992px) {
+    :root {
+        --text-xxl: 64px;
+        --text-xl: 48px;
+        --text-lg: 32px;
+        --text-md: 20px;
+        --text-sm: 14px;
+        --text-default: 12px;
+        --text-base: 10px;
+    }
+}
+
+@media(max-width:567px) {
+    :root {
+        --text-xxl: 32px;
+        --text-xl: 24px;
+    }
+}

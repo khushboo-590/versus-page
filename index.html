@@ -1,22 +1,31 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>versus-page</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="icon" type="images/png" href="./assets/images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
 </head>
 
 <body class="bg-black">
     <!-- ------hero-section---- -->
+
     <section>
-        <nav class="top-nav ">
-            <div class="container pb-30 ">
+        <nav class="top-nav py-10  ">
+            <div class="container ">
                 <div class="d-flex  ">
                     <a href="#">
                         <svg class="border" width="173" height="56" viewBox="0 0 173 56" fill="none"
@@ -58,39 +67,38 @@
                             </defs>
                         </svg>
                     </a>
+                    <ul class="dropdown align-items-center pt-10">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_23_125)">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M19.4481 6.93714C19.7834 7.84518 19.9912 8.79438 20.088 9.75526C20.5175 14.0184 19.9956 15.934 18.7252 15.9979C17.5491 16.0556 15.9448 14.9221 14.13 12.8818C13.9116 12.6367 13.5963 12.496 13.2648 12.496H7.20576C6.87427 12.496 6.5584 12.6367 6.34053 12.8818C4.52581 14.9221 2.92146 16.0556 1.74535 15.9979C0.474982 15.934 -0.0462756 14.0184 0.383215 9.75526C0.4806 8.79377 0.688479 7.84518 1.02308 6.93714C1.41012 5.88779 1.89892 5.03381 2.49509 4.38688C3.88344 2.87982 6.1957 2.55605 7.94613 3.63857C8.14964 3.76452 8.33504 3.90582 8.50172 4.0631C8.71834 4.26769 9.003 4.38688 9.30327 4.38688H11.1692C11.4688 4.38688 11.7541 4.26707 11.9707 4.0631C12.1374 3.90582 12.3228 3.76452 12.5263 3.63857C14.2761 2.55543 16.5878 2.87982 17.9761 4.38688C18.5723 5.03381 19.0611 5.88779 19.4481 6.93714ZM15.9142 6.11326C15.9142 5.57814 15.4735 5.1444 14.9297 5.1444C14.386 5.1444 13.9453 5.57814 13.9453 6.11326C13.9453 6.64838 14.386 7.08213 14.9297 7.08213C15.4735 7.08213 15.9142 6.64838 15.9142 6.11326ZM11.9764 8.05038C11.9764 8.5855 12.4171 9.01924 12.9608 9.01924C13.5045 9.01924 13.9453 8.5855 13.9453 8.05038C13.9453 7.51526 13.5045 7.08151 12.9608 7.08151C12.4171 7.08151 11.9764 7.51526 11.9764 8.05038ZM13.9453 9.98811C13.9453 10.5232 14.386 10.957 14.9297 10.957C15.4735 10.957 15.9142 10.5232 15.9142 9.98811C15.9142 9.45299 15.4735 9.01924 14.9297 9.01924C14.386 9.01924 13.9453 9.45299 13.9453 9.98811ZM15.9142 8.05038C15.9142 8.5855 16.3549 9.01924 16.8986 9.01924C17.4424 9.01924 17.8831 8.5855 17.8831 8.05038C17.8831 7.51526 17.4424 7.08151 16.8986 7.08151C16.3549 7.08151 15.9142 7.51526 15.9142 8.05038ZM5.73529 6C5.45915 6 5.23529 6.22386 5.23529 6.5V8H3.73529C3.45915 8 3.23529 8.22386 3.23529 8.5C3.23529 8.77614 3.45915 9 3.73529 9H5.23529V10.5C5.23529 10.7761 5.45915 11 5.73529 11C6.01143 11 6.23529 10.7761 6.23529 10.5V9H7.73529C8.01143 9 8.23529 8.77614 8.23529 8.5C8.23529 8.22386 8.01143 8 7.73529 8H6.23529V6.5C6.23529 6.22386 6.01143 6 5.73529 6Z"
+                                        fill="#4D545E" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_23_125">
+                                        <rect width="20" height="20" fill="white" transform="translate(0.235291)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                    
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </ul>
+                    
                     <div class="menu-icon">
                         <span></span>
                         <span></span>
                         <span></span>
                     </div>
 
-                    <div class=" d-flex align-items-center justify-content-between   w-100 menu-list">
+                    <div class=" d-flex align-items-center   w-100 menu-list gap-250  m-0 p-0">
                         <ul class=" d-flex gap-24 list-type align-items-center">
-                            <div class="dropdown">
-                                <a class="btn btn-secondary dropdown-toggle" href="#" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <g clip-path="url(#clip0_23_125)">
-                                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                                d="M19.4481 6.93714C19.7834 7.84518 19.9912 8.79438 20.088 9.75526C20.5175 14.0184 19.9956 15.934 18.7252 15.9979C17.5491 16.0556 15.9448 14.9221 14.13 12.8818C13.9116 12.6367 13.5963 12.496 13.2648 12.496H7.20576C6.87427 12.496 6.5584 12.6367 6.34053 12.8818C4.52581 14.9221 2.92146 16.0556 1.74535 15.9979C0.474982 15.934 -0.0462756 14.0184 0.383215 9.75526C0.4806 8.79377 0.688479 7.84518 1.02308 6.93714C1.41012 5.88779 1.89892 5.03381 2.49509 4.38688C3.88344 2.87982 6.1957 2.55605 7.94613 3.63857C8.14964 3.76452 8.33504 3.90582 8.50172 4.0631C8.71834 4.26769 9.003 4.38688 9.30327 4.38688H11.1692C11.4688 4.38688 11.7541 4.26707 11.9707 4.0631C12.1374 3.90582 12.3228 3.76452 12.5263 3.63857C14.2761 2.55543 16.5878 2.87982 17.9761 4.38688C18.5723 5.03381 19.0611 5.88779 19.4481 6.93714ZM15.9142 6.11326C15.9142 5.57814 15.4735 5.1444 14.9297 5.1444C14.386 5.1444 13.9453 5.57814 13.9453 6.11326C13.9453 6.64838 14.386 7.08213 14.9297 7.08213C15.4735 7.08213 15.9142 6.64838 15.9142 6.11326ZM11.9764 8.05038C11.9764 8.5855 12.4171 9.01924 12.9608 9.01924C13.5045 9.01924 13.9453 8.5855 13.9453 8.05038C13.9453 7.51526 13.5045 7.08151 12.9608 7.08151C12.4171 7.08151 11.9764 7.51526 11.9764 8.05038ZM13.9453 9.98811C13.9453 10.5232 14.386 10.957 14.9297 10.957C15.4735 10.957 15.9142 10.5232 15.9142 9.98811C15.9142 9.45299 15.4735 9.01924 14.9297 9.01924C14.386 9.01924 13.9453 9.45299 13.9453 9.98811ZM15.9142 8.05038C15.9142 8.5855 16.3549 9.01924 16.8986 9.01924C17.4424 9.01924 17.8831 8.5855 17.8831 8.05038C17.8831 7.51526 17.4424 7.08151 16.8986 7.08151C16.3549 7.08151 15.9142 7.51526 15.9142 8.05038ZM5.73529 6C5.45915 6 5.23529 6.22386 5.23529 6.5V8H3.73529C3.45915 8 3.23529 8.22386 3.23529 8.5C3.23529 8.77614 3.45915 9 3.73529 9H5.23529V10.5C5.23529 10.7761 5.45915 11 5.73529 11C6.01143 11 6.23529 10.7761 6.23529 10.5V9H7.73529C8.01143 9 8.23529 8.77614 8.23529 8.5C8.23529 8.22386 8.01143 8 7.73529 8H6.23529V6.5C6.23529 6.22386 6.01143 6 5.73529 6Z"
-                                                fill="#4D545E" />
-                                        </g>
-                                        <defs>
-                                            <clipPath id="clip0_23_125">
-                                                <rect width="20" height="20" fill="white"
-                                                    transform="translate(0.235291)" />
-                                            </clipPath>
-                                        </defs>
-                                    </svg>
-
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </div>
+                           
                             <li><a href="#"
                                     class="font-family fw-xl fs-default lh-16 fc-light-green text-decoration light-green ">GAMES</a>
                             </li>
@@ -100,9 +108,9 @@
                             <button
                                 class="btn font-family lh-16 fw-sm fc-grey-color fs-base text-decoration navlinks ">Coming
                                 Soon</button>
-                        </ul>
+                        </ul> 
                         <ul class="d-flex gap-10  align-items-center ">
-                            <button class="btn-1 font-family fw-md fc-white lh-16 fs-sm bg-light-grey">LOG
+                            <button class="btn-1 font-family fw-md fc-white lh-16 fs-sm bg-light-grey ">LOG
                                 IN
                             </button>
                             <button
@@ -175,19 +183,20 @@
                             </filter>
                         </defs>
                     </svg>
-                    <h1 class="main-heading font-family fs-xxl fw-xl fc-white-color lh-86 text-center pt-20">
+                    <h1
+                        class="main-heading font-family fs-xxl fw-xl fc-white-color lh-86 text-center justify-content-center pt-20">
                         CHALLENGE<br>INCOMING
                     </h1>
                     <p class=" discription font-family lh-16 fs-sm fc-white-color fw-sm pt-20">PLAY GAMES. WIN PRIZES
                     </p>
                     <div class="d-flex gap-16 align-items-center pt-20">
-                        <svg width="181" height="26" viewBox="0 0 181 26" fill="none"
+                        <svg class="w-100" width="181" height="26" viewBox="0 0 181 26" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path d="M181 25C133.942 25 132.5 25 132.5 25L100 1H0" stroke="#D4FF27" />
                             <path d="M166.5 25C119.442 25 118 25 118 25L85.5 1H36.5" stroke="#D4FF27" />
                         </svg>
                         <button class="btn-3 font-family lh-16 fs-sm fw-md">COMPLTE NOW</button>
-                        <svg width="181" height="26" viewBox="0 0 181 26" fill="none"
+                        <svg class="w-100" width="181" height="26" viewBox="0 0 181 26" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path d="M0 25C47.0582 25 48.5 25 48.5 25L81 1H181" stroke="#D4FF27" />
                             <path d="M14.5 25C61.5582 25 63 25 63 25L95.5 1H144.5" stroke="#D4FF27" />
@@ -208,13 +217,17 @@
 
     <section>
         <div class="container mt-50">
-            <div class="justify-content-center d-flex align-items-center">
-                <img src="./assets/images/Title.png" class=" pt-40">
+            <!-- <div class="justify-content-center d-flex align-items-center">
+                <img src="./assets/images/line-1.png" class="w-100 ">
+                <img src="./assets/images/line-3.png" class="w-100">
+            </div>  -->
+             <div class="d-flex align-items-center justify-content-center flex-column">
+                <h2 class="font-family lh-36 fw-xl text-center fc-white-color">GAMES SELECT</h2>
+                <p class="font-family para lh-24 fs-sm letter-spacing-1 fw-sm">Tactical shooters, battle royales, fighters and more</p>
             </div>
-            <div class="my-silder d-flex mt-50">
-                <!-- <div class="soon poistion-absolute z-1"><img src="./assets/images/soon.png"></div> -->
-                <div class="card  position-realtive">
-                    <img src="./assets/images/game-1.png" class=" ">
+            <div class="my_file mt-50 d-flex prev next">
+                <div class="card  ">
+                    <img src="./assets/images/game-1.png" class=" game">
                     <div class="d-flex gap-10 align-items-center pt-20">
                         <img src="./assets/images/logo.png">
                         <h6 class=" font-family fs-sm fw-xl fc-white-color lh-16  ">Valorant</h6>
@@ -222,7 +235,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img src="./assets/images/game-2.png" class=" ">
+                    <img src="./assets/images/game-2.png" class=" game">
                     <div class="d-flex gap-10 align-items-center pt-20">
                         <img src="./assets/images/logo-2.png">
                         <div class="">
@@ -232,8 +245,8 @@
 
                     </div>
                 </div>
-                <div class="card  position-realtive">
-                    <img src="./assets/images/game-3.png" class=" ">
+                <div class="card">
+                    <img src="./assets/images/game-3.png" class=" game">
                     <div class="d-flex gap-10 align-items-center pt-20">
                         <img src="./assets/images/logo-3.png">
                         <h6 class=" font-family fs-sm fw-xl fc-white-color lh-16 ">Fortnite</h6>
@@ -241,19 +254,21 @@
 
                     </div>
                 </div>
-                <div class="card  position-realtive">
-                    <img src="./assets/images/game-4.png" class=" ">
+                <div class="card">
+                    <img src="./assets/images/game-4.png" class=" game">
                     <div class="d-flex gap-10 align-items-center pt-20">
                         <img src="./assets/images/logo-4.png">
                         <h6 class=" font-family fs-sm fw-xl fc-white-color lh-16 ">Rocket League</h6>
                     </div>
                 </div>
-            </div>
-            <div class="d-flex align-items-center justify-content-center pt-20">
-                <img src="./assets/images/line-1.png">
-                <img src="./assets/images/line-3.png">
+            </div>  
 
-            </div>
+
+            <!-- <div class="d-flex align-items-center justify-content-center pt-20">
+                <img src="./assets/images/line-1.png" class="w-100">
+                <img src="./assets/images/line-3.png" class="w-100">
+
+            </div> -->
         </div>
     </section>
 
@@ -349,11 +364,18 @@
                         </filter>
                     </defs>
                 </svg>
+                <div class="iframe-box justify-content-center align-items-center">
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/HIj8wU_rGIU?si=AwENLOZ_OJr15L-3"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
 
                 <div class="max-w-888">
 
                 </div>
-                <button class="btn-3 font-family lh-16 fs-sm fw-md">COMPLTE NOW</button>
+                <button class="btn-3 font-family lh-16 fs-sm fw-md  mt-30">COMPLTE NOW</button>
             </div>
         </div>
 
@@ -364,11 +386,12 @@
     <section class="bg-img-3">
         <div class="container mt-60">
             <div class="row">
-                <div class="col-6">
-                    <svg width="372" height="34" viewBox="0 0 372 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <div class="col-12 col-lg-6">
+                    <svg class="w-100" width="372" height="34" viewBox="0 0 372 34" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
                         <path d="M-63 33.5H57.5L90 1H371.5" stroke="#D4FF27" />
                     </svg>
-                    <div class="d-flex gap-10 mt-50 ml-100">
+                    <div class="display gap-2 mt-50 ml-50">
                         <button class="meet-btn d-flex align-items-center gap-10">
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -384,7 +407,7 @@
                             <p clas="font-family fs-default lh-16 fw-xl text-center">MEET</p>
 
                         </button>
-                        <button class="meet-btn d-flex align-items-center gap-10">
+                        <button class="meet-btn d-flex align-items-center gap-10 meet-1">
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -407,7 +430,7 @@
                             <p clas="font-family fs-default lh-16 fw-xl text-center">COMPLTE</p>
 
                         </button>
-                        <button class="meet-btn d-flex align-items-center gap-10">
+                        <button class="meet-btn d-flex align-items-center gap-10 meet-2">
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -429,11 +452,11 @@
                         limits. From scouting and team management to intense tournaments and trophies. This is where
                         passion meets competition.
                         This is esports redefined.</p>
-                    <button class="btn-3 font-family lh-16 fs-sm fw-md mt-30">COMPLTE  NOW</button>
+                    <button class="btn-3 font-family lh-16 fs-sm fw-md mt-10 mb-24">COMPLTE NOW</button>
 
                 </div>
-                <div class="col-6">
-                    <img src="./assets/images/cartoon.png" class=>
+                <div class="col-12 col-lg-6">
+                    <img src="./assets/images/cartoon.png" class="w-100">
                 </div>
             </div>
         </div>
@@ -441,8 +464,8 @@
 
     <!-- -------section-4------ -->
 
-    <section class="">
-        <div class=" mt-50 max-w-1320">
+    <section>
+        <div class=" mt-50 max-w-1320 container">
             <div class="d-flex gap-24  justify-content-between">
                 <div class="d-flex gap-24 align-items-center ">
                     <div class="vertical"></div>
@@ -460,9 +483,9 @@
             </div>
             <p class="para font-family fw-sm lh-24 fs-sm ">Keep up with the latest news on the scene</p>
             <div class="row">
-                <div class="col-6">
+                <div class="col-12 col-lg-6">
 
-                    <img src="./assets/images/flying.png">
+                    <img src="./assets/images/flying.png" class="w-100">
                     <div classs="box">
                         <p class=" font-family fs-sm fw-xl lh-20 fc-white-color letter-spacing-1  mt-30">Rumor: Destiny
                             2's
@@ -484,7 +507,7 @@
                     </div>
 
                 </div>
-                <div class="col-6">
+                <div class="col-12 col-lg-6">
                     <div class="d-flex  flex-column">
                         <div class="d-flex">
                             <img src="./assets/images/mountain.png">
@@ -551,44 +574,42 @@
 
     <!-- -------section-5------ -->
 
-    <section class="bg-color">
-        <!-- <img src="./assets/images/Gradient Light.png"class="light position-absolute"> -->
-        <div class="container mt-50">
-            <!-- <img src="./assets/images/shape.png" class="mt-60"> -->
+    <section class="bg-color position-realtive z-1">
+        <div class="gradient"><img src="assets/images/Gradient Light.png"></div>
+        <div class="container mt-50 mb-24">
             <div class="row">
-                <div class="col-4">
+                <div class="col-12 col-sm-6 col-md-4    ">
                     <img src="./assets/images/cartoon-2.png">
                 </div>
-                <div class="col-4">
-                    <h2 class="font-family lh-36 fw-xl  stay pt-40 text-center ">STAY UPDATED</h2>
-                    <p class=" font-family fs-default lh-16 fw-sm revices letter-spacing-1 text-center">Receive all the news,
+                <div class="col-12 col-sm-6 col-md-4   ">
+                    <h2 class="font-family lh-36 fw-xl  stay mt-30  ">STAY UPDATED</h2>
+                    <p class=" font-family fs-default lh-16 fw-sm revices letter-spacing-1 ">Receive all the
+                        news,
                         updates, and exclusive promotions directly in your inbox.</p>
                 </div>
-                <div class="col-4">
-                    <div class="d-flex gap-10 mt-60">
-
-                        <form class="form">
-                            <input type="email" id="email" placeholder="Your email">
-
-                        </form>
-
-                        <div class="arrow-box justify-content-center"><svg width="16" height="16" viewBox="0 0 16 16"
-                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                <div class="col-12 col-sm-6 col-md-4    ">
+                    <form class="form  d-flex gap-10 mt-50 mb-24">
+                        <input type="email" id="email" placeholder="Your email">
+                        <div class="arrow-box justify-content-center d-flex align-items-center">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
                                 <path d="M3.33362 7.99992H11.8696M8.00002 3.33325L12.6667 7.99992L8.00002 12.6666"
                                     stroke="#D4FF27" stroke-width="2.5" stroke-linecap="square"
                                     stroke-linejoin="round" />
-                            </svg></div>
-                    </div>
-
+                            </svg>
+                        </div>
                 </div>
+
             </div>
+        </div>
         </div>
 
     </section>
 
     <!-- ---footer-section -->
+
     <section class=" bg-color-1">
-        <div class="container">
+        <div class="container mt-60">
             <div class="d-flex justify-content-center gap-10 align-items-center ">
                 <svg class="border" width="173" height="56" viewBox="0 0 173 56" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
@@ -632,7 +653,7 @@
             </div>
             <div class="margin"></div>
             <div class="row justify-content-between">
-                <div class="col-4">
+                <div class="col-12 col-lg-3 mb-20 mb-lg-0 mt-40">
                     <h6 class=" font-family fw-sm fs-sm lh-16 fc-white-color mt-30">Stay Updated</h6>
                     <div class="d-flex gap-10 mt-30">
                         <form class="form">
@@ -640,40 +661,89 @@
 
                         </form>
 
-                        <div class="arrow-box justify-content-center"><svg width="16" height="16" viewBox="0 0 16 16"
-                                fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M3.33362 7.99992H11.8696M8.00002 3.33325L12.6667 7.99992L8.00002 12.6666"
-                                    stroke="#D4FF27" stroke-width="2.5" stroke-linecap="square"
-                                    stroke-linejoin="round" />
-                            </svg></div>
+                        <div class="arrow-box-1 justify-content-center d-flex align-items-center">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3.33359 8.00016H11.8696M7.99999 3.3335L12.6667 8.00016L7.99999 12.6668"
+                                    stroke="black" stroke-width="2.5" stroke-linecap="square" stroke-linejoin="round" />
+                            </svg>
+                        </div>
                     </div>
                     <div class="d-flex gap-10 mt-30">
-                        <img src="./assets/images/Social Icon (4).png">
-                        <img src="./assets/images/Social Icon (1).png">
-                        <img src="./assets/images/Social Icon (2).png">
-                        <img src="./assets/images/Social Icon (3).png">
+                        <img src="./assets/images/Social Icon (4).png" class="social-icon">
+                        <img src="./assets/images/Social Icon (1).png" class="social-icon">
+                        <img src="./assets/images/Social Icon (2).png" class="social-icon">
+                        <img src="./assets/images/Social Icon (3).png" class="social-icon">
 
                     </div>
                 </div>
-                <div class="col-2">
-                    <h6 class=" fc-white-color text-center pt-20">Legal</h6>
-                    <ul class="d-flex pt-10 flex-column list-type align-items-center">
+                <div class="col-8 col-md-6 col-xl-2 gap-10 mb-20 ">
+                    <h6 class=" fc-white-color  pt-20 text-left letter-spacing-1">Legal</h6>
+                    <ul class="d-flex pt-10 flex-column list-type  letter-spacing-1 m-0 p-0 ">
                         <li><a href="#" class="text-decoration navlinks pt-10 ">Terms of Use</a></li>
-                        <li><a href="#" class="text-decoration navlinks  pt-10">Privacy Policy</a></li>
+                        <li><a href="#" class="text-decoration navlinks  pt-10 ">Privacy Policy</a></li>
                     </ul>
 
                 </div>
-                <div class="col-2"></div>
-                <div class="col-2"></div>
+                <div class="col-8 col-md-6 col-xl-2 gap-10 mb-20">
+                    <h6 class=" fc-white-color  pt-20 text-left letter-spacing-1">Company</h6>
+                    <ul class="d-flex pt-10 flex-column list-type  letter-spacing-1 m-0 p-0 ">
+                        <li><a href="#" class="text-decoration navlinks pt-10 ">About us</a></li>
+                        <li><a href="#" class="text-decoration navlinks  pt-10">B2B Services</a></li>
+                        <li><a href="#" class="text-decoration navlinks  pt-10">Contact</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-8 col-md-6 col-xl-2 gap-10 mb-20">
+                    <h6 class=" fc-white-color  pt-20 letter-spacing-1 ">Browse</h6>
+                    <ul class="d-flex pt-10 flex-column list-type text-decoration letter-spacing-1 m-0 p-0 ">
+                        <li><a href="#" class="text-decoration navlinks pt-10 ">Compete</a></li>
+                        <li><a href="#" class="text-decoration navlinks  pt-10">News</a></li>
+                        <li><a href="#" class="text-decoration navlinks  pt-10">Watch</a></li>
+                        <li><a href="#" class="text-decoration navlinks  pt-10">My Team</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-8 col-md-6 col-xl-2 gap-10 mb-20">
+                    <h6 class=" fc-white-color  pt-20 letter-spacing-1 ">Tournament Games</h6>
+                    <ul class="d-flex pt-10 flex-column list-type letter-spacing-1  m-0 p-0">
+                        <li><a href="#" class="text-decoration navlinks pt-10 ">Valorant</a></li>
+                        <li><a href="#" class="text-decoration navlinks  pt-10">Apex</a></li>
+                        <li><a href="#" class="text-decoration navlinks  pt-10">Fortnite</a></li>
+                        <li><a href="#" class="text-decoration navlinks  pt-10">Rocket League</a></li>
+
+                    </ul>
+                </div>
 
 
             </div>
+            <div class="margin mt-30"></div>
+
+            <p class="font-family lh-24  fw-sm fs-sm para pt-20 text-center align-items-center">Verus is neither
+                endorsed nor directly affiliated with
+                Apple Inc, Electronic Arts, Activision Blizzard, Take-Two
+                Interactive, Riot Games, Microsoft, Xbox, or Epic Games. It does not receive maintenance or sponsorship
+                from these
+                companies. All trademarks, trade names, game titles, trade dress, artwork, and associated imagery belong
+                to their
+                respective owners</p>
         </div>
+
     </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <script src="./assets/js/app.js"></script>
+
+
 </body>
+
+
+
+
 
 </html>
