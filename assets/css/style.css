@@ -380,10 +380,8 @@
     padding-top: 10px;
 }
 
-
-
 input[type="email"] {
-    max-width: 480px;
+    width:100% ;
     text-align: left;
     background: var(--Colors-Neutrals-Neutral-800, #0D1012);
     border-radius: 12px;
@@ -415,18 +413,14 @@ input[type="email"] {
     gap: 2px;
 }
 
-
-
 .my_file .slick-track {
     display: flex;
     gap: 20px;
 }
 
 .card:hover {
-    border: 1px solid#D4FF27;
+    border: 1px solid #1F272E;
 }
-
-
 
 
 .iframe-box {
@@ -444,7 +438,6 @@ input[type="email"] {
     top: 0;
     left: 0;
     width: 100%;
-    /* height: 100%; */
     max-width: 888px;
     height: 480px;
     border: none;
