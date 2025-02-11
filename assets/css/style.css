@@ -1,7 +1,10 @@
-@import url("https: //globalfonts.pro/font/normalidad");
 
 @import url(/assets/css/root.css);
 
+@font-face {
+    font-family: ;
+    src: url();
+}
 .top-nav {
     border-width: 0px, 1px, 1px, 0px;
 
