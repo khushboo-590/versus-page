@@ -1,6 +1,9 @@
 @import url(/assets/css/root.css);
 
-
+@font-face {
+    font-family: "Normalidad";
+    src: url(../font/NormalidadCompact-Black.eot);
+}
 
 .top-nav {
     border-width: 0px, 1px, 1px, 0px;
@@ -112,7 +115,6 @@
 .position-absloute {
     position: absolute;
 }
-
 
 
 .text-center {
@@ -244,8 +246,6 @@
     background-position: center;
     min-height: 988px;
     width: 100%;
-    top: 0;
-    right: 0;
 }
 
 .grand {
@@ -262,8 +262,8 @@
     background-image: url(/assets/images/bg-img-3.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
     background-position: center;
+    background-size: cover;
     border-top-right-radius: 12px;
     border-bottom-right-radius: 12px;
     width: 100%;
@@ -332,8 +332,9 @@
 }
 
 .bg-color {
-    background: var(--Accent-Colors-accent-color-base, #D4FF27);
     border-radius: 12px;
+    background: var(--Accent-Colors-accent-color-base, #D4FF27);
+    ;
 }
 
 .max-w-456 {
@@ -357,6 +358,7 @@
 .arrow-box {
     width: 40px;
     height: 40px;
+    margin-right: 20px;
     background: var(--Colors-Neutrals-Neutral-700, #151A1F);
     border-radius: 10px;
 
@@ -517,6 +519,9 @@ input[type="email"] {
 .max-w-1344 {
     max-width: 1344px;
 }
+.ml-10{
+    margin-left: 10px;
+}
 
 
 @media(max-width:992px) {
@@ -553,8 +558,10 @@ input[type="email"] {
         right: -100%;
         height: 100%;
         width: 100%;
-        background-color: lightcoral;
+        background-color: #000000;
         transition: right 200ms linear;
+        /* z-index: 3; */
+        
 
         ul {
             flex-direction: column;
