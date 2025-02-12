@@ -239,13 +239,16 @@
 }
 
 
-
+.white-space-mowrap{
+    white-space: nowrap;
+}
 .bg-img-2 {
     background-image: url(/assets/images/video-img.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-position: center;
+    min-height: 988px;
     width: 100%;
     top: 0;
     right: 0;

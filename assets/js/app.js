@@ -37,3 +37,19 @@ $(document).ready(function () {
 
     });
 });
+
+$(document).ready(function () {
+    $('.my_silder').slick({
+        dots: true,
+        infinite: true,
+        // speed: 250,
+        slidesToShow: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        prevArrow: false,
+        nextArrow: false,
+       
+
+        
+    });
+});
