@@ -1,6 +1,7 @@
 @import url(/assets/css/root.css);
 
 
+
 .top-nav {
     border-width: 0px, 1px, 1px, 0px;
 
@@ -270,11 +271,12 @@
 
 .meet-btn {
     background: var(--Colors-Neutrals-Neutral-700, #151A1F);
-    padding: 2px 8px;
+    padding: 8px 12px;
     color: var(--Colors-Neutrals-Neutral-50, #FFFFFF);
     border-radius: 72px;
     border: none;
     letter-spacing: 0%;
+    font-weight: 700;
     text-align: center;
 }
 
@@ -476,10 +478,16 @@ input[type="email"] {
 .z-1 {
     z-index: -1;
 }
+.left-margin{
+    margin-left: 40px;
+}
 
 .carousel-indicators [data-bs-target] {
     background-color: #D4FF27;
     margin-bottom: 40px;
+}
+.max-w-965{
+    max-width: 965px;
 }
 
 
@@ -506,7 +514,12 @@ input[type="email"] {
     .display {
         display: unset;
     }
-
+.left-margin {
+    margin-left: 0px;
+}
+.pb-90{
+    padding-bottom: 70px;
+}
 
 }
 
@@ -569,6 +582,9 @@ input[type="email"] {
     .ml-100 {
         margin-left: 0px;
     }
+        .pb-90 {
+            padding-bottom: 40px;
+        }
 
 }
 
@@ -579,6 +595,14 @@ input[type="email"] {
         font-size: 48px;
         letter-spacing: -4%;
     }
-
-
+        .pb-90 {
+            padding-bottom: 90px;
+            padding-top: 80px;
+        }
+.game-shooter{
+padding-top: 40px;
 }
+}
+
+
+
