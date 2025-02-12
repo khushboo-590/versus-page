@@ -197,7 +197,7 @@
 .card {
     background: #FFFFFF;
     border-radius: 24px;
-    padding: 20px;
+    padding: 16px 24px;
     border: 1px solid var(--Colors-Neutrals-Neutral-700, #151A1F);
     backdrop-filter: blur(40px);
     background: var(--Colors-Neutrals-Neutral-800, #0D1012);
@@ -274,13 +274,13 @@
 
 .meet-btn {
     background: var(--Colors-Neutrals-Neutral-700, #151A1F);
-    padding: 8px 12px;
+    padding: 2px 8px;
     color: var(--Colors-Neutrals-Neutral-50, #FFFFFF);
     border-radius: 72px;
     border: none;
     font-weight: 700;
+  
 }
-
 .mt-60 {
     margin-top: 60px;
 }
@@ -549,7 +549,7 @@ input[type="email"] {
 
 }
 
-@media (max-width:785.98px) {
+@media (max-width:767.98px) {
 
     .menu-list {
         flex-direction: column;
@@ -561,7 +561,7 @@ input[type="email"] {
         width: 100%;
         background-color: #000000;
         transition: right 200ms linear;
-        /* z-index: 3; */
+        z-index: 10;
         
 
         ul {
@@ -581,7 +581,7 @@ input[type="email"] {
         flex-direction: column;
         justify-content: space-between;
         cursor: pointer;
-        z-index: 1;
+        z-index: 99;
         margin-top: 10px;
 
         span {
@@ -590,8 +590,7 @@ input[type="email"] {
             background-color: #FFFFFF;
             border-radius: 4px;
             transition: all 200ms linear;
-        }
-    }
+           }    }
 
     .menu-icon.active span:first-of-type {
         transform: rotate(40deg);
