@@ -121,6 +121,10 @@
 .main-heading {
     font-size: 96px;
     letter-spacing: -4%;
+    text-align: center;
+    text-transform: uppercase;
+
+
 }
 
 .discription {
@@ -239,9 +243,10 @@
 }
 
 
-.white-space-mowrap{
+.white-space-mowrap {
     white-space: nowrap;
 }
+
 .bg-img-2 {
     background-image: url(/assets/images/video-img.png);
     background-repeat: no-repeat;
@@ -384,7 +389,7 @@
 }
 
 input[type="email"] {
-    width:100% ;
+    width: 100%;
     text-align: left;
     background: var(--Colors-Neutrals-Neutral-800, #0D1012);
     border-radius: 12px;
@@ -484,16 +489,10 @@ input[type="email"] {
     z-index: -1;
 }
 
-.gradient {
-    position: absolute;
-    top: 443%;
-    z-index: 1;
-    overflow: hidden;
-    width: 100%;
-
-    background: linear-gradient(41.57deg, #D4FF27 1.11%, rgba(160, 255, 39, 0.4) 4.83%, rgba(0, 0, 0, 0) 17.68%);
+.carousel-indicators [data-bs-target] {
+    background-color: #D4FF27;
+    margin-bottom: 40px;
 }
-
 
 
 @media(max-width:1246px) {
@@ -589,7 +588,7 @@ input[type="email"] {
 
 @media(max-width:567px) {
     .main-heading {
-        font-size: 50px;
+        font-size: 48px;
         letter-spacing: -4%;
     }
 
