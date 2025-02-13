@@ -2,9 +2,26 @@
 
 @font-face {
     font-family: "Normalidad";
-    src: url(../font/NormalidadCompact-Black.eot);
+    src: url("../font/NormalidadCompact-Black.eot");
 }
+@font-face {
+    font-family: "Normalidad-regular";
+    src: url("../font/NormalidadCompact-Regular.woff");
+}
+@font-face {
+    font-family: "Normalidad-medium";
+    src: url("../font/NormalidadCompact-Medium.woff");
+}
+.font-family-1 {
+    font-family: "Normalidad-regular";
+}
+.font-family-2 {
+    font-family: "Normalidad-medium";
+}
+.font-family {
+    font-family: "Normalidad";
 
+}
 .top-nav {
     border-width: 0px, 1px, 1px, 0px;
 
@@ -12,6 +29,19 @@
 
     border-color: var(--Colors-Neutrals-Neutral-600, #1F272E);
     background: var(--Colors-Neutrals-Neutral-700, #151A1F);
+}
+.rumor{
+        font-family: 'Normalidad';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 125%;
+        text-transform: uppercase;
+    
+        color: #FFFFFF;
+    
+    
+      
 }
 
 .straight {
@@ -147,6 +177,10 @@
     letter-spacing: -4%;
     text-align: center;
     text-transform: uppercase;
+   font-family: 'Normalidad';
+        
+    
+       
 
 
 }
@@ -508,7 +542,13 @@ input[type="email"] {
 }
 
 .valorant-btn {
-    transform: translateY(-15px);
+    transform: translateY(-16px);
+    background-color: #1F272E;
+    border-radius: 50px;
+}
+.btn-6{
+    background-color: #1F272E;
+        border-radius: 50px;
 }
 
 .carousel-indicators [data-bs-target] {
