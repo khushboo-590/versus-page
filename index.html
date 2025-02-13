@@ -24,9 +24,9 @@
     <!-- ------hero-section---- -->
 
     <section>
-        <nav class="top-nav pt-1  ">
+        <nav class="top-nav  ">
             <div class="container max-w-1440 ">
-                <div class="d-flex  ">
+                <div class="d-flex gap-0 ">
                     <a href="#">
                         <svg class="border" width="173" height="56" viewBox="0 0 173 56" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
@@ -67,30 +67,6 @@
                             </defs>
                         </svg>
                     </a>
-                    <ul class="dropdown align-items-center pt-10">
-                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0_23_125)">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M19.4481 6.93714C19.7834 7.84518 19.9912 8.79438 20.088 9.75526C20.5175 14.0184 19.9956 15.934 18.7252 15.9979C17.5491 16.0556 15.9448 14.9221 14.13 12.8818C13.9116 12.6367 13.5963 12.496 13.2648 12.496H7.20576C6.87427 12.496 6.5584 12.6367 6.34053 12.8818C4.52581 14.9221 2.92146 16.0556 1.74535 15.9979C0.474982 15.934 -0.0462756 14.0184 0.383215 9.75526C0.4806 8.79377 0.688479 7.84518 1.02308 6.93714C1.41012 5.88779 1.89892 5.03381 2.49509 4.38688C3.88344 2.87982 6.1957 2.55605 7.94613 3.63857C8.14964 3.76452 8.33504 3.90582 8.50172 4.0631C8.71834 4.26769 9.003 4.38688 9.30327 4.38688H11.1692C11.4688 4.38688 11.7541 4.26707 11.9707 4.0631C12.1374 3.90582 12.3228 3.76452 12.5263 3.63857C14.2761 2.55543 16.5878 2.87982 17.9761 4.38688C18.5723 5.03381 19.0611 5.88779 19.4481 6.93714ZM15.9142 6.11326C15.9142 5.57814 15.4735 5.1444 14.9297 5.1444C14.386 5.1444 13.9453 5.57814 13.9453 6.11326C13.9453 6.64838 14.386 7.08213 14.9297 7.08213C15.4735 7.08213 15.9142 6.64838 15.9142 6.11326ZM11.9764 8.05038C11.9764 8.5855 12.4171 9.01924 12.9608 9.01924C13.5045 9.01924 13.9453 8.5855 13.9453 8.05038C13.9453 7.51526 13.5045 7.08151 12.9608 7.08151C12.4171 7.08151 11.9764 7.51526 11.9764 8.05038ZM13.9453 9.98811C13.9453 10.5232 14.386 10.957 14.9297 10.957C15.4735 10.957 15.9142 10.5232 15.9142 9.98811C15.9142 9.45299 15.4735 9.01924 14.9297 9.01924C14.386 9.01924 13.9453 9.45299 13.9453 9.98811ZM15.9142 8.05038C15.9142 8.5855 16.3549 9.01924 16.8986 9.01924C17.4424 9.01924 17.8831 8.5855 17.8831 8.05038C17.8831 7.51526 17.4424 7.08151 16.8986 7.08151C16.3549 7.08151 15.9142 7.51526 15.9142 8.05038ZM5.73529 6C5.45915 6 5.23529 6.22386 5.23529 6.5V8H3.73529C3.45915 8 3.23529 8.22386 3.23529 8.5C3.23529 8.77614 3.45915 9 3.73529 9H5.23529V10.5C5.23529 10.7761 5.45915 11 5.73529 11C6.01143 11 6.23529 10.7761 6.23529 10.5V9H7.73529C8.01143 9 8.23529 8.77614 8.23529 8.5C8.23529 8.22386 8.01143 8 7.73529 8H6.23529V6.5C6.23529 6.22386 6.01143 6 5.73529 6Z"
-                                        fill="#4D545E" />
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_23_125">
-                                        <rect width="20" height="20" fill="white" transform="translate(0.235291)" />
-                                    </clipPath>
-                                </defs>
-                            </svg>
-
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </ul>
 
                     <div class="menu-icon">
                         <span></span>
@@ -98,26 +74,51 @@
                         <span></span>
                     </div>
 
-                    <div class=" d-flex align-items-center   w-100 menu-list gap-250  m-0 p-0">
-                        <ul class=" d-flex gap-24 list-type align-items-center">
+                    <div class=" d-flex align-items-center gap-10  w-100 menu-list gap-250 ">
+                        <ul class="dropdown align-items-center  pt-10 mt-1   d-flex gap-24 m-0 p-0  ">
+                            <a class="btn btn-secondary dropdown-toggle ml-20" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <svg width="21" height="20" viewBox="0 0 21 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_23_125)">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M19.4481 6.93714C19.7834 7.84518 19.9912 8.79438 20.088 9.75526C20.5175 14.0184 19.9956 15.934 18.7252 15.9979C17.5491 16.0556 15.9448 14.9221 14.13 12.8818C13.9116 12.6367 13.5963 12.496 13.2648 12.496H7.20576C6.87427 12.496 6.5584 12.6367 6.34053 12.8818C4.52581 14.9221 2.92146 16.0556 1.74535 15.9979C0.474982 15.934 -0.0462756 14.0184 0.383215 9.75526C0.4806 8.79377 0.688479 7.84518 1.02308 6.93714C1.41012 5.88779 1.89892 5.03381 2.49509 4.38688C3.88344 2.87982 6.1957 2.55605 7.94613 3.63857C8.14964 3.76452 8.33504 3.90582 8.50172 4.0631C8.71834 4.26769 9.003 4.38688 9.30327 4.38688H11.1692C11.4688 4.38688 11.7541 4.26707 11.9707 4.0631C12.1374 3.90582 12.3228 3.76452 12.5263 3.63857C14.2761 2.55543 16.5878 2.87982 17.9761 4.38688C18.5723 5.03381 19.0611 5.88779 19.4481 6.93714ZM15.9142 6.11326C15.9142 5.57814 15.4735 5.1444 14.9297 5.1444C14.386 5.1444 13.9453 5.57814 13.9453 6.11326C13.9453 6.64838 14.386 7.08213 14.9297 7.08213C15.4735 7.08213 15.9142 6.64838 15.9142 6.11326ZM11.9764 8.05038C11.9764 8.5855 12.4171 9.01924 12.9608 9.01924C13.5045 9.01924 13.9453 8.5855 13.9453 8.05038C13.9453 7.51526 13.5045 7.08151 12.9608 7.08151C12.4171 7.08151 11.9764 7.51526 11.9764 8.05038ZM13.9453 9.98811C13.9453 10.5232 14.386 10.957 14.9297 10.957C15.4735 10.957 15.9142 10.5232 15.9142 9.98811C15.9142 9.45299 15.4735 9.01924 14.9297 9.01924C14.386 9.01924 13.9453 9.45299 13.9453 9.98811ZM15.9142 8.05038C15.9142 8.5855 16.3549 9.01924 16.8986 9.01924C17.4424 9.01924 17.8831 8.5855 17.8831 8.05038C17.8831 7.51526 17.4424 7.08151 16.8986 7.08151C16.3549 7.08151 15.9142 7.51526 15.9142 8.05038ZM5.73529 6C5.45915 6 5.23529 6.22386 5.23529 6.5V8H3.73529C3.45915 8 3.23529 8.22386 3.23529 8.5C3.23529 8.77614 3.45915 9 3.73529 9H5.23529V10.5C5.23529 10.7761 5.45915 11 5.73529 11C6.01143 11 6.23529 10.7761 6.23529 10.5V9H7.73529C8.01143 9 8.23529 8.77614 8.23529 8.5C8.23529 8.22386 8.01143 8 7.73529 8H6.23529V6.5C6.23529 6.22386 6.01143 6 5.73529 6Z"
+                                            fill="#4D545E" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_23_125">
+                                            <rect width="20" height="20" fill="white" transform="translate(0.235291)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
 
-                            <li><a href="#"
-                                    class="font-family fw-xl fs-default lh-16 fc-light-green text-decoration light-green ">GAMES</a>
-                            </li>
-                            <li><a href="#"
-                                    class="font-family fw-xl fs-default lh-16 fc-grey-color text-decoration navlinks">NEWS</a>
-                            </li>
-                            <button
-                                class="btn font-family lh-16 fw-sm fc-grey-color fs-base text-decoration navlinks ">Coming
-                                Soon</button>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+
+                            <a class="straight"></a>
+                            <ul class=" d-flex gap-24 list-type m-0 p-0">
+
+                                <li><a href="#"
+                                        class="font-family fw-xl fs-default lh-16 fc-light-green text-decoration light-green  ">GAMES</a>
+                                </li>
+                                <li><a href="#"
+                                        class="font-family fw-xl fs-default lh-16 fc-grey-color text-decoration navlinks">NEWS</a>
+                                    <span class="span  "> <button
+                                            class="btn-5 font-family lh-16 fw-sm fc-grey-color fs-base text-decoration navlinks ">Coming
+                                            Soon</button></span>
+                                </li>
+                            </ul>
                         </ul>
-                        <ul class="d-flex gap-10  align-items-center ">
+                        <ul class="d-flex gap-10  align-items-center m-0 p-0 ">
                             <button class="btn-1 font-family fw-md fc-white lh-16 fs-sm bg-light-grey ">LOG
                                 IN
                             </button>
                             <button
                                 class="btn-1 btn-2 font-family fs-sm lh-16 fw-md fc-black bg-light-green">SIGN-UP</button>
-
 
                         </ul>
                     </div>
@@ -133,10 +134,10 @@
             </div>
             <div class="carousel-inner ">
                 <div class="carousel-item active">
-                    <div class="bg-img position-realtive ">
+                    <div class="bg-img position-realtive  min-vh-100">
                         <div class="container pt-100 pb-90">
-                            <div class="d-flex justify-content-center flex-column align-items-center">
-                                <svg width="214" height="93" viewBox="0 0 214 93" fill="none"
+                            <div class="d-flex justify-content-center flex-column align-items-center ">
+                                <svg class="mt-50" width="214" height="93" viewBox="0 0 214 93" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path d="M0 53H96" stroke="#D4FF27" />
                                     <g filter="url(#filter0_d_1_512)">
@@ -227,10 +228,10 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div class="bg-img position-realtive ">
+                    <div class="bg-img position-realtive  min-vh-100">
                         <div class="container pt-100 pb-90">
-                            <div class="d-flex justify-content-center flex-column align-items-center">
-                                <svg width="214" height="93" viewBox="0 0 214 93" fill="none"
+                            <div class="d-flex justify-content-center flex-column align-items-center ">
+                                <svg class="mt-50" width="214" height="93" viewBox="0 0 214 93" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path d="M0 53H96" stroke="#D4FF27" />
                                     <g filter="url(#filter0_d_1_512)">
@@ -301,13 +302,13 @@
                                     WIN PRIZES
                                 </p>
                                 <div class="  pb-100 d-flex gap-24 mt-30">
-                                    <svg class="shape" width="181" height="26" viewBox="0 0 181 26" fill="none"
+                                    <svg class="shape" width="181 " height="26" viewBox="0 0 181 26" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path d="M181 25C133.942 25 132.5 25 132.5 25L100 1H0" stroke="#D4FF27" />
                                         <path d="M166.5 25C119.442 25 118 25 118 25L85.5 1H36.5" stroke="#D4FF27" />
                                     </svg>
 
-                                    <button class="btn-3 font-family lh-16 fs-sm fw-md white-space-nowrap">COMPETE
+                                    <button class="btn-3 font-family lh-16 fs-sm fw-md ">COMPETE
                                         NOW</button>
                                     <svg class="shape" width="181" height="26" viewBox="0 0 181 26" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -338,8 +339,8 @@
     <!-- -------section-1------ -->
 
     <section>
-        <div class="container mt-50 mb-24 max-w-1344">
-            <div class="justify-content-center  align-items-center">
+        <div class="container mt-90 mb-24 max-w-1344">
+            <div class="justify-content-center d-flex align-items-center">
                 <img src="./assets/images/Title.png" class="square-img  position-realtive">
             </div>
             <div class="d-flex align-items-center justify-content-center flex-column">
@@ -352,40 +353,43 @@
             <div class="my_file mt-50 d-flex  justify-content-center flex-column">
                 <div class="card position-relative ">
                     <img src="./assets/images/coming.png" class="position-absolute w-50">
-                        <img src="./assets/images/game-1.png" class="game w-100 ">
+                    <img src="./assets/images/game-1.png" class="game w-100 ">
 
-                        <div class="d-flex gap-10 align-items-center mt-30">
-                            <img src="./assets/images/logo.png">
-                            <h6 class=" font-family fs-sm fw-xl fc-white-color lh-16  text-center m-0 p-0 ">Valorant</h6>
-                        </div>
+                    <div class="d-flex gap-10 align-items-center mt-30">
+                        <img src="./assets/images/logo.png">
+                        <h6 class=" font-family fs-sm fw-xl fc-white-color lh-16  text-center m-0 p-0 ">Valorant</h6>
+                    </div>
                 </div>
                 <div class="card">
-                        <img src="./assets/images/game-2.png" class=" game w-100">
-                        <div class="d-flex gap-10 align-items-center mt-30">
-                            <img src="./assets/images/logo-2.png">
-                            <div class="">
-                                <h6 class=" font-family fs-sm fw-xl fc-white-color lh-16 text-center m-0 p-0">Apex Legends</h6>
-                                <p class="para font-family fs-default lh-16 fw-sm letter-spacing-1 text-cnter  m-0 p-0">7
-                                    tournaments</p>
-                            </div>
+                    <img src="./assets/images/game-2.png" class=" game w-100">
+                    <div class="d-flex gap-10 align-items-center mt-30">
+                        <img src="./assets/images/logo-2.png">
+                        <div class="">
+                            <h6 class=" font-family fs-sm fw-xl fc-white-color lh-16 text-center m-0 p-0">Apex Legends
+                            </h6>
+                            <p
+                                class="para font-family fs-default lh-16 fw-sm letter-spacing-1 text-cnter  m-0 p-0 mt-10">
+                                7
+                                tournaments</p>
                         </div>
+                    </div>
                 </div>
                 <div class="card position-realtive">
                     <img src="./assets/images/coming.png" class="position-absolute w-50">
-                        <img src="./assets/images/game-3.png" class=" game w-100">
-                        <div class="d-flex gap-10 align-items-center mt-30">
-                            <img src="./assets/images/logo-3.png">
-                            <h6 class=" font-family fs-sm fw-xl fc-white-color lh-16 m-0 p-0">Fortnite</h6>
+                    <img src="./assets/images/game-3.png" class=" game w-100">
+                    <div class="d-flex gap-10 align-items-center mt-30">
+                        <img src="./assets/images/logo-3.png">
+                        <h6 class=" font-family fs-sm fw-xl fc-white-color lh-16 m-0 p-0">Fortnite</h6>
 
-                        </div>
+                    </div>
                 </div>
                 <div class="card position-realtive">
                     <img src="./assets/images/coming.png" class="position-absolute w-50">
-                        <img src="./assets/images/game-4.png" class=" game w-100">
-                        <div class="d-flex gap-10 align-items-center mt-30">
-                            <img src="./assets/images/logo-4.png">
-                            <h6 class=" font-family fs-sm fw-xl fc-white-color lh-16 m-0 p-0">Rocket League</h6>
-                        </div>
+                    <img src="./assets/images/game-4.png" class=" game w-100">
+                    <div class="d-flex gap-10 align-items-center mt-30">
+                        <img src="./assets/images/logo-4.png">
+                        <h6 class=" font-family fs-sm fw-xl fc-white-color lh-16 m-0 p-0">Rocket League</h6>
+                    </div>
                 </div>
             </div>
 
@@ -399,9 +403,9 @@
     <!-- -------section-2------ -->
 
     <section class="bg-img-2">
-        <div class="container mt-50 mb-20 max-w-1440">
+        <div class="container mt-60 mb-20 max-w-1440">
             <div class="d-flex align-items-center justify-content-center flex-column">
-                <svg class="mt-30" width="78" height="94" viewBox="0 0 78 94" fill="none"
+                <svg class="mt-50" width="78" height="94" viewBox="0 0 78 94" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path d="M39 31V55" stroke="#D4FF27" stroke-width="2" />
                     <g filter="url(#filter0_dd_1_546)">
@@ -507,87 +511,91 @@
     <!-- -------section-3------ -->
 
     <section class="justify-content-center">
-        <div class="container mt-50 max-w-1344  ">
-            <div class="bg-img-3">
-            <svg class=" vector  mt-10  mb-24" width="372" height="34" viewBox="0 0 372 34" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path d="M-63 33.5H57.5L90 1H371.5" stroke="#D4FF27" />
-            </svg>
-            <div class="row">
-                <div class="col-12 col-lg-6">
+        <div class="container mt-90 max-w-1344  ">
+            <div class="bg-img-3 ">
+                <svg class=" vector mt-30 " width="372" height="34" viewBox="0 0 372 34" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M-63 33.5H57.5L90 1H371.5" stroke="#D4FF27" />
+                </svg>
+                <div class="row">
+                    <div class="col-12 col-md-6">
 
-                    <div class="display gap-2 mt-10 left-margin ">
-                        <button class="meet-btn d-flex align-items-center gap-10 ">
-                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path d="M8 3V0H6V3H8Z" fill="#D4FF27" />
-                                <path
-                                    d="M0.792893 2.20711L3.29289 4.70711L4.70711 3.29289L2.20711 0.792893L0.792893 2.20711Z"
-                                    fill="#D4FF27" />
-                                <path
-                                    d="M6 5L5 6.00001L8 15H10L10.7172 12.1314L14.2929 15.7071L15.7071 14.2929L12.1314 10.7172L15 10V8L6 5Z"
-                                    fill="#D4FF27" />
-                                <path d="M0 6H3V8H0V6Z" fill="#D4FF27" />
-                            </svg>
-                            <p class="font-family fs-default lh-16 fw-xl text-center pt-10 ">MEET</p>
+                        <div class="d-flex gap-10 mt-30 left-margin ">
+                            <button class="meet-btn d-flex align-items-center gap-10 ">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8 3V0H6V3H8Z" fill="#D4FF27" />
+                                    <path
+                                        d="M0.792893 2.20711L3.29289 4.70711L4.70711 3.29289L2.20711 0.792893L0.792893 2.20711Z"
+                                        fill="#D4FF27" />
+                                    <path
+                                        d="M6 5L5 6.00001L8 15H10L10.7172 12.1314L14.2929 15.7071L15.7071 14.2929L12.1314 10.7172L15 10V8L6 5Z"
+                                        fill="#D4FF27" />
+                                    <path d="M0 6H3V8H0V6Z" fill="#D4FF27" />
+                                </svg>
+                                <p class="font-family fs-default lh-16 fw-xl text-center pt-10 ">MEET</p>
 
-                        </button>
-                        <button class="meet-btn d-flex align-items-center gap-10 meet-1">
-                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M7.99292 1.6003C7.41813 1.60907 6.84454 1.6453 6.27216 1.69906C5.69133 1.75282 5.11714 1.84164 4.54596 1.9515C4.2655 2.00585 4.02907 2.12272 3.86923 2.35997C3.75102 2.53586 3.7088 2.72987 3.72388 2.9379C3.73473 3.09334 3.73112 3.24878 3.74077 3.4048C3.76429 3.79632 3.81254 4.18433 3.88552 4.57001C4.03389 5.35539 4.29264 6.10629 4.66538 6.81804C5.00314 7.46375 5.42172 8.05688 5.92474 8.5939C6.20943 8.89777 6.51763 9.17592 6.84574 9.43362C6.88676 9.46576 6.89762 9.49732 6.88917 9.5464C6.79991 10.0922 6.85178 10.6228 7.07615 11.1341C7.11776 11.2288 7.17205 11.3164 7.22995 11.4017C7.26614 11.4543 7.25407 11.48 7.20039 11.5093C6.76311 11.75 6.33488 12.0048 5.93379 12.2993C5.77396 12.4168 5.61594 12.5377 5.48747 12.6903C5.41147 12.7808 5.36684 12.8772 5.37046 12.997C5.37528 13.17 5.37287 13.343 5.37106 13.5154C5.37106 13.5732 5.38855 13.5948 5.4549 13.5931C5.60267 13.589 5.75104 13.5989 5.89941 13.5989C7.42717 13.6001 8.95494 13.6001 10.4833 13.6001C10.613 13.6001 10.6136 13.5989 10.6124 13.4739C10.6112 13.3179 10.6045 13.1618 10.6124 13.0064C10.6196 12.8638 10.5653 12.751 10.4676 12.6517C10.2426 12.4226 9.98269 12.2362 9.71309 12.0609C9.41875 11.8698 9.11718 11.6898 8.81018 11.518C8.72695 11.4713 8.72393 11.4613 8.77399 11.3825C9.00982 11.0126 9.11477 10.6076 9.13708 10.1769C9.14794 9.96948 9.13588 9.76379 9.10572 9.55926C9.09667 9.50024 9.11356 9.45992 9.16242 9.42018C9.90368 8.81829 10.5376 8.12466 11.0394 7.32175C11.5708 6.47093 11.9188 5.5529 12.1033 4.57585C12.2059 4.03182 12.2565 3.48252 12.2734 2.92972C12.2867 2.48327 12.0358 2.06428 11.4495 1.95208C11.0086 1.86735 10.5659 1.79256 10.1196 1.73996C9.76134 1.69789 9.40186 1.66049 9.04058 1.64296C8.69076 1.6266 8.34275 1.59738 7.99292 1.6003Z"
-                                    fill="#D4FF27" />
-                                <path
-                                    d="M12.6781 11.8085C12.6516 11.4351 12.6281 11.0979 12.6027 10.7607C12.5949 10.6584 12.5961 10.6514 12.7041 10.6356C13.2366 10.5562 13.7547 10.4212 14.2674 10.2628C14.2771 10.2599 14.2867 10.2576 14.2958 10.2529C14.3277 10.2365 14.3802 10.2324 14.3772 10.1892C14.3742 10.1465 14.3235 10.1693 14.2952 10.1588C14.1166 10.0928 13.9423 10.018 13.7668 9.94552C13.2095 9.71587 12.6619 9.46693 12.1389 9.16891C11.844 9.0012 11.5587 8.81946 11.2891 8.61494C11.16 8.51677 11.1124 8.52436 11.0092 8.65058C10.6425 9.09996 10.2481 9.52478 9.80838 9.90871C9.72455 9.98175 9.72696 9.98058 9.80718 10.0484C10.5563 10.6836 11.3934 11.1925 12.262 11.6559C12.3699 11.7132 12.4767 11.7728 12.5853 11.8283C12.6673 11.8698 12.6793 11.861 12.6775 11.8079L12.6781 11.8085Z"
-                                    fill="#D4FF27" />
-                                <path
-                                    d="M1.60323 10.2178C2.16656 10.4054 2.73291 10.5533 3.31615 10.6345C3.38913 10.6444 3.39878 10.6766 3.39456 10.7367C3.37345 11.0254 3.35536 11.3141 3.33545 11.6028C3.33123 11.6659 3.32399 11.729 3.31977 11.7915C3.31495 11.8599 3.32701 11.8692 3.38913 11.8371C3.56223 11.7477 3.73473 11.6577 3.90542 11.5648C4.47901 11.251 5.04054 10.9191 5.56648 10.5334C5.78662 10.3715 6.00255 10.205 6.21425 10.032C6.25708 9.99694 6.25406 9.97416 6.21425 9.94026C5.95008 9.71821 5.70641 9.47628 5.46877 9.22793C5.30471 9.05613 5.15333 8.87439 5.00435 8.69032C4.99048 8.67279 4.97721 8.65526 4.96334 8.63773C4.87467 8.52845 4.83426 8.52086 4.72147 8.60559C4.29747 8.92465 3.8427 9.19754 3.36501 9.43362C2.81434 9.70593 2.25341 9.95604 1.6744 10.1687C1.64906 10.1781 1.62253 10.1863 1.60202 10.2178H1.60323Z"
-                                    fill="#D4FF27" />
-                                <path
-                                    d="M12.759 4.13525C12.7499 4.2007 12.7837 4.22991 12.847 4.23751C12.8916 4.24277 12.9369 4.24803 12.9809 4.25796C13.0949 4.28309 13.1637 4.37133 13.1335 4.48002C12.9863 5.0112 12.8374 5.54238 12.5406 6.02039C12.4146 6.22374 12.2704 6.41308 12.1052 6.5878C12.0641 6.63163 12.0334 6.68188 12.0086 6.73506C11.7656 7.26449 11.464 7.76061 11.1118 8.22809C11.0991 8.24504 11.0738 8.26315 11.0907 8.28478C11.1088 8.30757 11.1317 8.28478 11.1516 8.27835C11.66 8.11706 12.1142 7.85995 12.5237 7.53154C12.8476 7.2715 13.1263 6.96646 13.3711 6.63396C13.8362 6.00227 14.1595 5.30572 14.3693 4.56008C14.4996 4.09726 14.2017 3.63387 13.7192 3.52868C13.4622 3.47259 13.2029 3.42408 12.9447 3.37383C12.8271 3.35104 12.8205 3.35747 12.8199 3.47492C12.8193 3.68003 12.7921 3.88222 12.7644 4.08499C12.762 4.10194 12.7608 4.11889 12.7584 4.13583L12.759 4.13525Z"
-                                    fill="#D4FF27" />
-                                <path
-                                    d="M1.60081 4.3649C1.59538 4.4508 1.6177 4.54313 1.64545 4.63429C1.87042 5.36824 2.19069 6.0572 2.65933 6.67721C3.03629 7.17566 3.48624 7.59815 4.0363 7.91546C4.28721 8.06038 4.55079 8.18076 4.82642 8.27484C4.84874 8.28244 4.87467 8.30757 4.89458 8.28244C4.91267 8.25965 4.88553 8.23744 4.87166 8.21874C4.66116 7.94818 4.47479 7.66185 4.30651 7.365C4.18649 7.15404 4.07249 6.93958 3.9778 6.71636C3.9392 6.62578 3.87527 6.55566 3.80892 6.48554C3.43015 6.08467 3.2094 5.60199 3.04413 5.09184C2.99287 4.93407 2.94884 4.77395 2.90119 4.61501C2.88611 4.56358 2.87405 4.51157 2.87345 4.45723C2.87224 4.35438 2.91928 4.29127 3.02182 4.26556C3.07007 4.25329 3.11953 4.24452 3.16899 4.23576C3.22085 4.22699 3.24197 4.20011 3.23473 4.14927C3.19914 3.91085 3.17622 3.67127 3.16235 3.43051C3.15994 3.38318 3.1334 3.36448 3.08756 3.37324C2.79745 3.43168 2.50191 3.46382 2.21662 3.54271C1.84267 3.64614 1.60262 3.96929 1.60202 4.36315L1.60081 4.3649Z"
-                                    fill="#D4FF27" />
-                            </svg>
+                            </button>
+                            <button class="meet-btn d-flex align-items-center gap-10 meet-1">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M7.99292 1.6003C7.41813 1.60907 6.84454 1.6453 6.27216 1.69906C5.69133 1.75282 5.11714 1.84164 4.54596 1.9515C4.2655 2.00585 4.02907 2.12272 3.86923 2.35997C3.75102 2.53586 3.7088 2.72987 3.72388 2.9379C3.73473 3.09334 3.73112 3.24878 3.74077 3.4048C3.76429 3.79632 3.81254 4.18433 3.88552 4.57001C4.03389 5.35539 4.29264 6.10629 4.66538 6.81804C5.00314 7.46375 5.42172 8.05688 5.92474 8.5939C6.20943 8.89777 6.51763 9.17592 6.84574 9.43362C6.88676 9.46576 6.89762 9.49732 6.88917 9.5464C6.79991 10.0922 6.85178 10.6228 7.07615 11.1341C7.11776 11.2288 7.17205 11.3164 7.22995 11.4017C7.26614 11.4543 7.25407 11.48 7.20039 11.5093C6.76311 11.75 6.33488 12.0048 5.93379 12.2993C5.77396 12.4168 5.61594 12.5377 5.48747 12.6903C5.41147 12.7808 5.36684 12.8772 5.37046 12.997C5.37528 13.17 5.37287 13.343 5.37106 13.5154C5.37106 13.5732 5.38855 13.5948 5.4549 13.5931C5.60267 13.589 5.75104 13.5989 5.89941 13.5989C7.42717 13.6001 8.95494 13.6001 10.4833 13.6001C10.613 13.6001 10.6136 13.5989 10.6124 13.4739C10.6112 13.3179 10.6045 13.1618 10.6124 13.0064C10.6196 12.8638 10.5653 12.751 10.4676 12.6517C10.2426 12.4226 9.98269 12.2362 9.71309 12.0609C9.41875 11.8698 9.11718 11.6898 8.81018 11.518C8.72695 11.4713 8.72393 11.4613 8.77399 11.3825C9.00982 11.0126 9.11477 10.6076 9.13708 10.1769C9.14794 9.96948 9.13588 9.76379 9.10572 9.55926C9.09667 9.50024 9.11356 9.45992 9.16242 9.42018C9.90368 8.81829 10.5376 8.12466 11.0394 7.32175C11.5708 6.47093 11.9188 5.5529 12.1033 4.57585C12.2059 4.03182 12.2565 3.48252 12.2734 2.92972C12.2867 2.48327 12.0358 2.06428 11.4495 1.95208C11.0086 1.86735 10.5659 1.79256 10.1196 1.73996C9.76134 1.69789 9.40186 1.66049 9.04058 1.64296C8.69076 1.6266 8.34275 1.59738 7.99292 1.6003Z"
+                                        fill="#D4FF27" />
+                                    <path
+                                        d="M12.6781 11.8085C12.6516 11.4351 12.6281 11.0979 12.6027 10.7607C12.5949 10.6584 12.5961 10.6514 12.7041 10.6356C13.2366 10.5562 13.7547 10.4212 14.2674 10.2628C14.2771 10.2599 14.2867 10.2576 14.2958 10.2529C14.3277 10.2365 14.3802 10.2324 14.3772 10.1892C14.3742 10.1465 14.3235 10.1693 14.2952 10.1588C14.1166 10.0928 13.9423 10.018 13.7668 9.94552C13.2095 9.71587 12.6619 9.46693 12.1389 9.16891C11.844 9.0012 11.5587 8.81946 11.2891 8.61494C11.16 8.51677 11.1124 8.52436 11.0092 8.65058C10.6425 9.09996 10.2481 9.52478 9.80838 9.90871C9.72455 9.98175 9.72696 9.98058 9.80718 10.0484C10.5563 10.6836 11.3934 11.1925 12.262 11.6559C12.3699 11.7132 12.4767 11.7728 12.5853 11.8283C12.6673 11.8698 12.6793 11.861 12.6775 11.8079L12.6781 11.8085Z"
+                                        fill="#D4FF27" />
+                                    <path
+                                        d="M1.60323 10.2178C2.16656 10.4054 2.73291 10.5533 3.31615 10.6345C3.38913 10.6444 3.39878 10.6766 3.39456 10.7367C3.37345 11.0254 3.35536 11.3141 3.33545 11.6028C3.33123 11.6659 3.32399 11.729 3.31977 11.7915C3.31495 11.8599 3.32701 11.8692 3.38913 11.8371C3.56223 11.7477 3.73473 11.6577 3.90542 11.5648C4.47901 11.251 5.04054 10.9191 5.56648 10.5334C5.78662 10.3715 6.00255 10.205 6.21425 10.032C6.25708 9.99694 6.25406 9.97416 6.21425 9.94026C5.95008 9.71821 5.70641 9.47628 5.46877 9.22793C5.30471 9.05613 5.15333 8.87439 5.00435 8.69032C4.99048 8.67279 4.97721 8.65526 4.96334 8.63773C4.87467 8.52845 4.83426 8.52086 4.72147 8.60559C4.29747 8.92465 3.8427 9.19754 3.36501 9.43362C2.81434 9.70593 2.25341 9.95604 1.6744 10.1687C1.64906 10.1781 1.62253 10.1863 1.60202 10.2178H1.60323Z"
+                                        fill="#D4FF27" />
+                                    <path
+                                        d="M12.759 4.13525C12.7499 4.2007 12.7837 4.22991 12.847 4.23751C12.8916 4.24277 12.9369 4.24803 12.9809 4.25796C13.0949 4.28309 13.1637 4.37133 13.1335 4.48002C12.9863 5.0112 12.8374 5.54238 12.5406 6.02039C12.4146 6.22374 12.2704 6.41308 12.1052 6.5878C12.0641 6.63163 12.0334 6.68188 12.0086 6.73506C11.7656 7.26449 11.464 7.76061 11.1118 8.22809C11.0991 8.24504 11.0738 8.26315 11.0907 8.28478C11.1088 8.30757 11.1317 8.28478 11.1516 8.27835C11.66 8.11706 12.1142 7.85995 12.5237 7.53154C12.8476 7.2715 13.1263 6.96646 13.3711 6.63396C13.8362 6.00227 14.1595 5.30572 14.3693 4.56008C14.4996 4.09726 14.2017 3.63387 13.7192 3.52868C13.4622 3.47259 13.2029 3.42408 12.9447 3.37383C12.8271 3.35104 12.8205 3.35747 12.8199 3.47492C12.8193 3.68003 12.7921 3.88222 12.7644 4.08499C12.762 4.10194 12.7608 4.11889 12.7584 4.13583L12.759 4.13525Z"
+                                        fill="#D4FF27" />
+                                    <path
+                                        d="M1.60081 4.3649C1.59538 4.4508 1.6177 4.54313 1.64545 4.63429C1.87042 5.36824 2.19069 6.0572 2.65933 6.67721C3.03629 7.17566 3.48624 7.59815 4.0363 7.91546C4.28721 8.06038 4.55079 8.18076 4.82642 8.27484C4.84874 8.28244 4.87467 8.30757 4.89458 8.28244C4.91267 8.25965 4.88553 8.23744 4.87166 8.21874C4.66116 7.94818 4.47479 7.66185 4.30651 7.365C4.18649 7.15404 4.07249 6.93958 3.9778 6.71636C3.9392 6.62578 3.87527 6.55566 3.80892 6.48554C3.43015 6.08467 3.2094 5.60199 3.04413 5.09184C2.99287 4.93407 2.94884 4.77395 2.90119 4.61501C2.88611 4.56358 2.87405 4.51157 2.87345 4.45723C2.87224 4.35438 2.91928 4.29127 3.02182 4.26556C3.07007 4.25329 3.11953 4.24452 3.16899 4.23576C3.22085 4.22699 3.24197 4.20011 3.23473 4.14927C3.19914 3.91085 3.17622 3.67127 3.16235 3.43051C3.15994 3.38318 3.1334 3.36448 3.08756 3.37324C2.79745 3.43168 2.50191 3.46382 2.21662 3.54271C1.84267 3.64614 1.60262 3.96929 1.60202 4.36315L1.60081 4.3649Z"
+                                        fill="#D4FF27" />
+                                </svg>
 
-                            <p class="font-family fs-default lh-16 fw-xl text-center pt-10">COMPETE</p>
+                                <p class="font-family fs-default lh-16 fw-xl text-center pt-10">COMPETE</p>
 
-                        </button>
-                        <button class="meet-btn d-flex align-items-center gap-10 meet-2">
-                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M6 7L7 6L4.70711 3.70711L5.29289 3.12132C6.01086 2.40335 6.98464 2 8 2C9.01536 2 9.98914 2.40335 10.7071 3.12132L10.7929 3.20711C11.5658 3.98 12 5.02828 12 6.12132L12 7L14 7V6.12132C14 4.49785 13.3551 2.94086 12.2071 1.79289L12.1213 1.70711C11.0283 0.614064 9.5458 0 8 0C6.45421 0 4.97172 0.614064 3.87868 1.70711L3.29289 2.29289L1 0L0 1V7H6Z"
-                                    fill="#D4FF27" />
-                                <path
-                                    d="M10.7071 12.8787C9.98914 13.5966 9.01536 14 8 14C6.98464 14 6.01086 13.5967 5.29289 12.8787L5.20711 12.7929C4.43421 12.02 4 10.9717 4 9.87868L4 9L2 9V9.87868C2 11.5022 2.64492 13.0591 3.79289 14.2071L3.87868 14.2929C4.97172 15.3859 6.45421 16 8 16C9.54579 16 11.0283 15.3859 12.1213 14.2929L12.7071 13.7071L15 16L16 15L16 9L10 9L9 10L11.2929 12.2929L10.7071 12.8787Z"
-                                    fill="#D4FF27" />
-                            </svg>
+                            </button>
+                            <button class="meet-btn d-flex align-items-center gap-10 meet-2">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M6 7L7 6L4.70711 3.70711L5.29289 3.12132C6.01086 2.40335 6.98464 2 8 2C9.01536 2 9.98914 2.40335 10.7071 3.12132L10.7929 3.20711C11.5658 3.98 12 5.02828 12 6.12132L12 7L14 7V6.12132C14 4.49785 13.3551 2.94086 12.2071 1.79289L12.1213 1.70711C11.0283 0.614064 9.5458 0 8 0C6.45421 0 4.97172 0.614064 3.87868 1.70711L3.29289 2.29289L1 0L0 1V7H6Z"
+                                        fill="#D4FF27" />
+                                    <path
+                                        d="M10.7071 12.8787C9.98914 13.5966 9.01536 14 8 14C6.98464 14 6.01086 13.5967 5.29289 12.8787L5.20711 12.7929C4.43421 12.02 4 10.9717 4 9.87868L4 9L2 9V9.87868C2 11.5022 2.64492 13.0591 3.79289 14.2071L3.87868 14.2929C4.97172 15.3859 6.45421 16 8 16C9.54579 16 11.0283 15.3859 12.1213 14.2929L12.7071 13.7071L15 16L16 15L16 9L10 9L9 10L11.2929 12.2929L10.7071 12.8787Z"
+                                        fill="#D4FF27" />
+                                </svg>
 
-                            <p class="font-family fs-default lh-16 fw-xl text-center pt-10">REPEAT</p>
+                                <p class="font-family fs-default lh-16 fw-xl text-center pt-10">REPEAT</p>
 
-                        </button>
+                            </button>
+                        </div>
+                        <h2 class=" font-family fw-xl lh-36 grand pt-20 left-margin">UNLEASH YOUR<br> COMPETITIVE
+                            INSTINCT
+                        </h2>
+                        <div class="max-w-538 left-margin">
+                            <p class="font-family lh-24  fw-sm fs-sm para pt-20 ">You're not just a player here. You're
+                                part
+                                of a
+                                global community of gamers, constantly
+                                pushing boundaries and shattering
+                                limits. From scouting and team management to intense tournaments and trophies. This is
+                                where
+                                passion meets competition.
+                                This is esports redefined.</p>
+                        </div>
+                        <button class="btn-3 font-family lh-16 fs-sm fw-md mt-10 mb-24 left-margin mb-24">COMPETE
+                            NOW</button>
+
                     </div>
-                    <h2 class=" font-family fw-xl lh-36 grand pt-20 left-margin">UNLEASH YOUR<br> COMPETITIVE INSTINCT
-                    </h2>
-                    <div class="max-w-538 left-margin">
-                        <p class="font-family lh-24  fw-sm fs-sm para pt-20 ">You're not just a player here. You're part
-                            of a
-                            global community of gamers, constantly
-                            pushing boundaries and shattering
-                            limits. From scouting and team management to intense tournaments and trophies. This is where
-                            passion meets competition.
-                            This is esports redefined.</p>
+                    <div class="col-12 col-md-6">
+                        <img src="./assets/images/cartoon.png" class=" w-100 ">
                     </div>
-                    <button class="btn-3 font-family lh-16 fs-sm fw-md mt-10 mb-24 left-margin mb-24">COMPETE NOW</button>
-
                 </div>
-                <div class="col-12 col-lg-6">
-                    <img src="./assets/images/cartoon.png" class=" w-100">
-                </div>
-            </div>
             </div>
         </div>
     </section>
@@ -711,35 +719,39 @@
 
     <!-- -------section-5------ -->
 
-    <section>
+    <section class="position-relative">
+        <img src="./assets/images/Gradient Light.png" class="w-100 position-absolute shadow">
         <div class="container mt-50 max-w-1344">
-            <div class="bg-color">
-            <div class="row ">
-                <div class="col-12 col-sm-6 col-md-4">
-                    <img src="./assets/images/cartoon-2.png" class="cartoon-2">
+            <div class="bg-color ">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <img src="./assets/images/cartoon-2.png" class="cartoon-2">
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <h2 class="font-family lh-36 fw-xl  stay ml-10">STAY UPDATED</h2>
+                        <p class=" font-family fs-default lh-16 fw-sm revices letter-spacing-1 ml-10 ">Receive all the
+                            news,
+                            updates, and exclusive promotions directly in your inbox.</p>
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-5">
+                        <form class="form  d-flex gap-10  mb-24 ml-10">
+                            <input type="email" id="email" placeholder="Your email">
+                            <div class="arrow-box justify-content-center d-flex align-items-center ">
+                                <a href="#"> <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M3.33362 7.99992H11.8696M8.00002 3.33325L12.6667 7.99992L8.00002 12.6666"
+                                            stroke="#D4FF27" stroke-width="2.5" stroke-linecap="square"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-4">
-                    <h2 class="font-family lh-36 fw-xl  stay mt-50 ml-10">STAY UPDATED</h2>
-                    <p class=" font-family fs-default lh-16 fw-sm revices letter-spacing-1 ml-10 ">Receive all the
-                        news,
-                        updates, and exclusive promotions directly in your inbox.</p>
-                    
-                </div>
-                <div class="col-12 col-sm-6 col-md-4">
-                    <form class="form  d-flex gap-10 mt-50 mb-24 justify-content-center ml-10">
-                        <input type="email" id="email" placeholder="Your email">
-                        <div class="arrow-box justify-content-center d-flex align-items-center ">
-                            <a href="#"> <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M3.33362 7.99992H11.8696M8.00002 3.33325L12.6667 7.99992L8.00002 12.6666"
-                                        stroke="#D4FF27" stroke-width="2.5" stroke-linecap="square"
-                                        stroke-linejoin="round" />
-                                </svg>
-                            </a>
-                        </div>
-                    </form>
-                </div>
-</div>
+                <img src="./assets/images/star.png" class=" top-border position-absolute  ">
+
             </div>
         </div>
         </div>
@@ -808,11 +820,11 @@
                         </div>
                     </form>
 
-                    <div class="d-flex gap-10 mt-30">
-                        <a href="#"> <img src="./assets/images/Social Icon (4).png" class="social-icon"></a>
-                        <a href="#"> <img src="./assets/images/Social Icon (1).png" class="social-icon"></a>
-                        <a href="#"><img src="./assets/images/Social Icon (2).png" class="social-icon"></a>
-                        <a href="#"> <img src="./assets/images/Social Icon (3).png" class="social-icon"></a>
+                    <div class="d-flex gap-24 mt-30">
+                        <a href="#"> <img src="./assets/images/icon-social.png" class="social-icon"></a>
+                        <a href="#"> <img src="./assets/images/icon-social1.png" class="social-icon"></a>
+                        <a href="#"><img src="./assets/images/icon-social2.png" class="social-icon"></a>
+                        <a href="#"> <img src="./assets/images/icon-social3.png" class="social-icon"></a>
 
                     </div>
                 </div>
@@ -862,20 +874,18 @@
             </div>
             <div class="margin mt-50 mb-24"></div>
             <div class="justify-content-center d-flex">
-                <div class="max-w-965 d-flex">
-                    <p class="font-family lh-24  fw-sm fs-sm para pt-20  text-center py-10">
-                        Verus is neither
-                        endorsed nor directly affiliated with
-                        Apple Inc, Electronic Arts, Activision Blizzard, Take-Two
-                        Interactive, Riot Games, Microsoft, Xbox, or Epic Games. It does not receive maintenance or
-                        sponsorship
-                        from these
-                        companies. All trademarks, trade names, game titles, trade dress, artwork, and associated
-                        imagery
-                        belong
-                        to their
-                        respective owners</p>
-                </div>
+                <p class="font-family lh-24  fw-sm fs-sm para pt-20  justify-content-center d-flex  py-10">
+                    Verus is neither
+                    endorsed nor directly affiliated with
+                    Apple Inc, Electronic Arts, Activision Blizzard, Take-Two
+                    Interactive, Riot Games, Microsoft, Xbox, or Epic Games. It does not<br> receive maintenance or
+                    sponsorship
+                    from these
+                    companies. All trademarks, trade names, game titles, trade dress, artwork, and associated
+                    imagery
+                    belong
+                    to their
+                    respective owners</p>
             </div>
         </div>
 
