@@ -522,13 +522,11 @@ border-top-right-radius: 10px;
 .max-w-1344 {
     max-width: 1344px;
 }
-.ml-10{
-    margin-left: 10px;
+.right-margin{
+    margin-right: 60px;
 }
-.w-83{
-    width: 83%;
-}
-@media(max-width:1200px){
+
+@media(max-width:1400px){
     .square-img{
         width: 100%;
     }
@@ -623,6 +621,9 @@ border-top-right-radius: 10px;
     .pb-90 {
         padding-bottom: 40px;
     }
+    .vector{
+        width: 50%;
+    }
 
 }
 
@@ -650,4 +651,7 @@ border-top-right-radius: 10px;
     .cartoon-2 {
         width: 100%;
     }
+        .ml-10 {
+            margin-left: 10px;
+        }
 }
