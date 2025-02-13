@@ -502,8 +502,10 @@ input[type="email"] {
 .max-w-965 {
     max-width: 965px;
 }
-
-
+.mountain-img{
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
 
 .max-w-575 {
     max-width: 575px;
@@ -523,7 +525,14 @@ input[type="email"] {
 .ml-10{
     margin-left: 10px;
 }
-
+.w-83{
+    width: 83%;
+}
+@media(max-width:1200px){
+    .square-img{
+        width: 100%;
+    }
+}
 
 @media(max-width:992px) {
     .main-heading {
@@ -546,6 +555,7 @@ input[type="email"] {
     .pb-90 {
         padding-bottom: 70px;
     }
+           
 
 }
 
