@@ -2,26 +2,32 @@
 
 @font-face {
     font-family: "Normalidad";
-    src: url("../font/NormalidadCompact-Black.eot");
+    src: url("../font/NormalidadCompact-Bold.ttf");
 }
+
 @font-face {
     font-family: "Normalidad-regular";
     src: url("../font/NormalidadCompact-Regular.woff");
 }
+
 @font-face {
     font-family: "Normalidad-medium";
     src: url("../font/NormalidadCompact-Medium.woff");
 }
+
 .font-family-1 {
     font-family: "Normalidad-regular";
 }
+
 .font-family-2 {
     font-family: "Normalidad-medium";
 }
+
 .font-family {
     font-family: "Normalidad";
 
 }
+
 .top-nav {
     border-width: 0px, 1px, 1px, 0px;
 
@@ -30,18 +36,15 @@
     border-color: var(--Colors-Neutrals-Neutral-600, #1F272E);
     background: var(--Colors-Neutrals-Neutral-700, #151A1F);
 }
-.rumor{
-        font-family: 'Normalidad';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 125%;
-        text-transform: uppercase;
-    
-        color: #FFFFFF;
-    
-    
-      
+
+.rumor {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
 }
 
 .straight {
@@ -177,10 +180,10 @@
     letter-spacing: -4%;
     text-align: center;
     text-transform: uppercase;
-   font-family: 'Normalidad';
-        
-    
-       
+    font-family: 'Normalidad';
+
+
+
 
 
 }
@@ -294,16 +297,20 @@
     background-image: url(/assets/images/video-img.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
     min-height: 999px;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .grand {
     font-size: 36px;
     color: var(--Accent-Colors-accent-color-base, #D4FF27);
 
+}
+
+.pt-16 {
+    padding-top: 16px;
 }
 
 .max-w-888 {
@@ -393,15 +400,24 @@
 .max-w-456 {
     max-width: 456px;
 }
-
+.ml-420{
+    margin-left: 420px;
+}
 .light {
     transform: translate(-220px);
 }
 
 .stay {
     font-size: 36px;
-    color: var(--Colors-Neutrals-Neutral-900, #000000);
     margin-top: 50px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #000000;
+
+
+
 }
 
 .revices {
@@ -472,6 +488,7 @@ input[type="email"] {
 .my_file .slick-track {
     display: flex;
     gap: 20px;
+    margin-top: 80px;
 }
 
 .card:hover {
@@ -480,7 +497,6 @@ input[type="email"] {
 
 
 .iframe-box {
-    max-width: 900px;
     margin: auto;
     position: relative;
     overflow: hidden;
@@ -495,7 +511,7 @@ input[type="email"] {
     left: 0;
     width: 100%;
     max-width: 888px;
-    height: 480px;
+    height: 400px;
     border: none;
 }
 
@@ -546,18 +562,23 @@ input[type="email"] {
     background-color: #1F272E;
     border-radius: 50px;
 }
-.btn-6{
+
+.btn-6 {
     background-color: #1F272E;
-        border-radius: 50px;
+    border-radius: 50px;
 }
 
 .carousel-indicators [data-bs-target] {
     background-color: #4D545E;
-    margin-bottom: 120px;
+    margin-bottom: 140px;
 }
 
 .max-w-965 {
     max-width: 965px;
+}
+
+.mt-20 {
+    margin-top: 20px;
 }
 
 .mountain-img {
@@ -615,13 +636,14 @@ input[type="email"] {
     margin-left: auto;
     margin-right: auto;
 }
-.max-w-543{
+
+.max-w-543 {
     max-width: 543px;
 }
 
 .top-border {
     top: 10%;
-    left: 0;
+    left: 0px;
     right: 0;
     max-width: 100%;
 }
@@ -646,7 +668,7 @@ input[type="email"] {
     }
 
     .pb-90 {
-        padding-bottom: 70px;
+        padding-bottom: 60px;
     }
 
     .top-border {
@@ -764,11 +786,12 @@ input[type="email"] {
 
     .pb-90 {
         padding-bottom: 90px;
-        padding-top: 100px;
+        padding-top: 120px;
     }
 
     .game-shooter {
-        padding-top: 70px;
+        padding-top: 120px;
+        padding-bottom: 20px;
     }
 
     .shape {
